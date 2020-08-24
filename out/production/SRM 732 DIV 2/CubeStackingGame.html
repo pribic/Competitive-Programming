@@ -1,0 +1,47 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+You recently designed the Cube Stacking Game.
+This is a single-player puzzle.
+All you need to play the game is a collection of cubes, as described below.
+</p>
+<br></br>
+
+<p>
+You have <b>n</b> cubes.
+The cubes are numbered from 0 to <b>n</b>-1.
+Each face of each cube has a single color.
+There are <b>n</b>+1 colors.
+One of the colors is white and has number 0.
+The remaining colors have numbers 1 to <b>n</b>.
+</p>
+<br></br>
+
+<p>
+Each cube has exactly two white faces, and these are always two opposite faces.
+Let's number the remaining faces on each cube 1, 2, 3, 4 in adjacent order.
+(That is, face 1 is adjacent to 2, 2 to 3, 3 to 4, and 4 to 1.)
+For each cube, you are given the colors of these four faces:
+on cube i these faces have colors <b>c1</b>[i], <b>c2</b>[i], <b>c3</b>[i] and <b>c4</b>[i], in order.
+Remember that these faces are never white.
+</p>
+<br></br>
+
+<p>
+You want to build a single stack of cubes with cube 0 on the bottom, cube 1 on top of cube 0, and so on.
+(I.e., you have to use the cubes in the given order, starting with 0, and you are not allowed to skip any cube.)
+</p>
+<br></br>
+
+<p>
+The cubes have to be aligned to form a single stack with four vertical sides.
+You may rotate the cubes arbitrarily but you must place them onto the stack in such a way that the top and bottom face of each cube will be white.
+On each of the four sides of the stack each color can only appear at most once.
+
+Calculate and return the maximum height of a valid stack that can be built out of the given cubes.
+</p>
+<br></br>
+
+</td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>CubeStackingGame</td></tr><tr><td>Method:</td><td>MaximumValue</td></tr><tr><td>Parameters:</td><td>int, int[], int[], int[], int[]</td></tr><tr><td>Returns:</td><td>int</td></tr><tr><td>Method signature:</td><td>int MaximumValue(int n, int[] c1, int[] c2, int[] c3, int[] c4)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>n</b> will be between 2 and 8, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each of <b>c1, c2, c3, c4</b> will contain exactly <b>n</b> elements.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>c1</b> will be between 1 and <b>n</b>, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>c2</b> will be between 1 and <b>n</b>, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>c3</b> will be between 1 and <b>n</b>, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>c4</b> will be between 1 and <b>n</b>, inclusive.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1,1}</pre></td></tr><tr><td><pre>{2,1}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{2,2}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 1</pre></td></tr><tr><td><table><tr><td colspan="2">You can place cube 0 arbitrarily but won't be able to place cube 1 on top of it.
+Regarless of how you rotate cube 1, there will always be a side of the stack where both cubes have color 1.
+Thus, the tallest valid stack consists of just a single cube.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2">Here you can place cube 1 onto cube 0 in any way you like, the result will always look the same: a stack of height 2 where on each side you can see a square of color 1 and a square of color 2.
+</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1,1}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 1</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1,1}</pre></td></tr><tr><td><pre>{2,2}</pre></td></tr><tr><td><pre>{1,1}</pre></td></tr><tr><td><pre>{2,2}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">4)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr><tr><td><pre>{1,1}</pre></td></tr><tr><td><pre>{1,2}</pre></td></tr><tr><td><pre>{2,2}</pre></td></tr><tr><td><pre>{2,1}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2">Theoretically one could use cubes 0, 2, and 3 to form a stack of height 3. However, such a stack is not valid because we are not allowed to skip cubes. And as there is no valid way of placing cube 1 onto cube 0, the tallest valid stack only has height 1.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">5)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>4</pre></td></tr><tr><td><pre>{1,1,3,4}</pre></td></tr><tr><td><pre>{1,2,3,4}</pre></td></tr><tr><td><pre>{1,3,3,4}</pre></td></tr><tr><td><pre>{1,4,3,4}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 1</pre></td></tr><tr><td><table><tr><td colspan="2">We can stack up three cubes (cube 1, 3, and 4) with no duplicate colors on the sides, but we cannot skip cube 2.
+</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">6)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>4</pre></td></tr><tr><td><pre>{1,1,1,1}</pre></td></tr><tr><td><pre>{2,2,2,4}</pre></td></tr><tr><td><pre>{3,3,3,3}</pre></td></tr><tr><td><pre>{4,4,4,2}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 4</pre></td></tr><tr><td><table><tr><td colspan="2">Here we can build a valid stack that will contain all four cubes. Note that in order to do so we need to flip cube 3 "upside down".</td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>

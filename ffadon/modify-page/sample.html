@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Swayamwar4u :: Search</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.beta.swayamwar4u.com/css/common/bootstrap.min.css">
+    
+        <link rel="stylesheet" href="http://www.beta.swayamwar4u.com/plugin/bootstrap-select/bootstrap-select.min.css">
+    <link rel="stylesheet" href="http://www.beta.swayamwar4u.com/css/frontend/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="css/common/bootstrap-multiselect.css" type="text/css">
+    <style type="text/css">
+        #gender-error{
+            margin-left: 0px!important;
+        }
+        .caste-suboptions > a {
+            padding-left: 15px !important;
+        }
+        .search-candidate{
+            padding: 9px 0px !important;
+        }.upcomingnri-candidate{
+            padding: 9px 0px !important;
+            font-size: 16px !important;
+            width: 22% !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="http://www.beta.swayamwar4u.com/css/frontend/style.css">
+    <link rel="stylesheet" href="http://www.beta.swayamwar4u.com/css/frontend/custom-dev.css">
+  
+
+    <script type="text/javascript">
+        var base_url= "http://www.beta.swayamwar4u.com"
+    </script>
+
+    <script>
+        window.Laravel = {"csrfToken":"LvMghuvaTiyZAJr5odgBZ7VxkVHsZnhGTvUnmliv","baseRoute":"http:\/\/www.beta.swayamwar4u.com"}    </script>
+            <!--Start of Zendesk Chat Script-->
+            <script type="text/javascript">
+            window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+            d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+            _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+            $.src="https://v2.zopim.com/?53gpjw2NZD8uNEi3u3STHQQytlkcPIfr";z.t=+new Date;$.
+            type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+            </script>   
+        <!--End of Zendesk Chat Script-->
+        
+</head>
+
+<body>
+    
+        <section class="page-wrap dashboard-page search-page">
+        
+        <nav class="navbar navbar-default custom-navbar ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+                             <a class="navbar-brand" href="http://www.beta.swayamwar4u.com/user"><img src="http://www.beta.swayamwar4u.com/images/old_logo.png"></a>
+                       
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                                    
+                    <li class ="">
+                        <a href="http://www.beta.swayamwar4u.com">Home</a></li>
+                    <!-- 
+                        Start Guest and Logged in User menu
+                    -->
+                                                                <li class ="active">
+                            <a href="http://www.beta.swayamwar4u.com/search">Search</a></li>
+                        <li class ="">
+                            <a href="http://www.beta.swayamwar4u.com/profile/B17576">My Profile</a></li>
+                        <li class ="">
+                            <a href="http://www.beta.swayamwar4u.com/user/message">Messages <sup class="badge"></sup></a></li>
+                        <li>
+                            <a href="http://www.beta.swayamwar4u.com/logout"
+                                    onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                <form id="logout-form" action="http://www.beta.swayamwar4u.com/logout" method="POST" style="display: none;">
+                                    <input type="hidden" name="_token" value="LvMghuvaTiyZAJr5odgBZ7VxkVHsZnhGTvUnmliv">
+                                </form>
+                                Logout
+                            </a>
+                        </li>
+                                        
+                    <!-- 
+                        End Guest and Logged in User menu
+                    -->
+                            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+        <section class="top-search-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="white-block">
+                            <form id="frmSearch" name="frmSearch" class="inner-page-form" action="http://www.beta.swayamwar4u.com/search">
+                                <!-- 
+                                    
+                                -->
+                                <input type="hidden" name="latest-users" value="0"/>
+
+                                <div class="search-title-wrap text-center">
+                                    <h3 class="search-title custom-label">To Direct Search By Name or Computer ID</h3>
+                                    <div class="form-group select-gender-block">
+                                        
+                                        <input type="text" id="name-computer_id" name="name-computer_id" value="G16834" class="form-control custom-form-control" placeholder="Please write Name or computer ID">
+                                    </div>
+                                </div>
+                                <!--- Start Serach Form -->
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                                        <label class="custom-label gender-label">Select Gender<sub class="require"> *</sub></label>
+                                          <div class="form-group search-group-bride-groom radio-m-b">
+                                        <div class="custom-radio radio">
+                                            <label class="text-uppercase custom-label">
+                                                <input type="radio" id="gender" name="gender" value="bride" 
+                                                                                                     
+                                                        checked
+                                                                                                     >
+                                                <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                                                Girl
+                                            </label>
+                                        </div>
+                                        <div class="custom-radio radio">
+                                            <label class="text-uppercase custom-label">
+                                                <input type="radio" id="gender" name="gender" value="groom"
+                                                                                                                                                     >
+                                                <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                                                Boy
+                                            </label>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                                  
+                                        <label class="custom-label">Age</label>
+                                        <div class="row">
+                                            <div class="col-xs-6 age-grp">
+                                                <div class="form-group">
+                                                    <select name="fromAge" class="form-control custom-form-control selectpicker">
+                                                                                                                <option value="" selected>Select</option>  
+                                                                                                                    <option >18</option>  
+                                                                                                                    <option >19</option>  
+                                                                                                                    <option >20</option>  
+                                                                                                                    <option >21</option>  
+                                                                                                                    <option >22</option>  
+                                                                                                                    <option >23</option>  
+                                                                                                                    <option >24</option>  
+                                                                                                                    <option >25</option>  
+                                                                                                                    <option >26</option>  
+                                                                                                                    <option >27</option>  
+                                                                                                                    <option >28</option>  
+                                                                                                                    <option >29</option>  
+                                                                                                                    <option >30</option>  
+                                                                                                                    <option >31</option>  
+                                                                                                                    <option >32</option>  
+                                                                                                                    <option >33</option>  
+                                                                                                                    <option >34</option>  
+                                                                                                                    <option >35</option>  
+                                                                                                                    <option >36</option>  
+                                                                                                                    <option >37</option>  
+                                                                                                                    <option >38</option>  
+                                                                                                                    <option >39</option>  
+                                                                                                                    <option >40</option>  
+                                                                                                                    <option >41</option>  
+                                                                                                                    <option >42</option>  
+                                                                                                                    <option >43</option>  
+                                                                                                                    <option >44</option>  
+                                                                                                                    <option >45</option>  
+                                                                                                                    <option >46</option>  
+                                                                                                                    <option >47</option>  
+                                                                                                                    <option >48</option>  
+                                                                                                                    <option >49</option>  
+                                                                                                                    <option >50</option>  
+                                                                                                                    <option >51</option>  
+                                                                                                                    <option >52</option>  
+                                                                                                                    <option >53</option>  
+                                                                                                                    <option >54</option>  
+                                                                                                                    <option >55</option>  
+                                                                                                                    <option >56</option>  
+                                                                                                                    <option >57</option>  
+                                                                                                                    <option >58</option>  
+                                                                                                                    <option >59</option>  
+                                                                                                                    <option >60</option>  
+                                                                                                                    <option >61</option>  
+                                                                                                                    <option >62</option>  
+                                                                                                                    <option >63</option>  
+                                                                                                                    <option >64</option>  
+                                                                                                                    <option >65</option>  
+                                                                                                                    <option >66</option>  
+                                                                                                                    <option >67</option>  
+                                                                                                                    <option >68</option>  
+                                                                                                                    <option >69</option>  
+                                                                                                                    <option >70</option>  
+                                                                                                                    <option >71</option>  
+                                                                                                                    <option >72</option>  
+                                                                                                                    <option >73</option>  
+                                                                                                                    <option >74</option>  
+                                                                                                                    <option >75</option>  
+                                                                                                            </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 age-grp">
+                                                <div class="form-group">
+                                                    <select id="toAge" name="toAge" class="form-control custom-form-control selectpicker">
+                                                    <option value="" selected>Select</option>
+                                                                                                                    <option >18</option>
+                                                                                                                    <option >19</option>
+                                                                                                                    <option >20</option>
+                                                                                                                    <option >21</option>
+                                                                                                                    <option >22</option>
+                                                                                                                    <option >23</option>
+                                                                                                                    <option >24</option>
+                                                                                                                    <option >25</option>
+                                                                                                                    <option >26</option>
+                                                                                                                    <option >27</option>
+                                                                                                                    <option >28</option>
+                                                                                                                    <option >29</option>
+                                                                                                                    <option >30</option>
+                                                                                                                    <option >31</option>
+                                                                                                                    <option >32</option>
+                                                                                                                    <option >33</option>
+                                                                                                                    <option >34</option>
+                                                                                                                    <option >35</option>
+                                                                                                                    <option >36</option>
+                                                                                                                    <option >37</option>
+                                                                                                                    <option >38</option>
+                                                                                                                    <option >39</option>
+                                                                                                                    <option >40</option>
+                                                                                                                    <option >41</option>
+                                                                                                                    <option >42</option>
+                                                                                                                    <option >43</option>
+                                                                                                                    <option >44</option>
+                                                                                                                    <option >45</option>
+                                                                                                                    <option >46</option>
+                                                                                                                    <option >47</option>
+                                                                                                                    <option >48</option>
+                                                                                                                    <option >49</option>
+                                                                                                                    <option >50</option>
+                                                                                                                    <option >51</option>
+                                                                                                                    <option >52</option>
+                                                                                                                    <option >53</option>
+                                                                                                                    <option >54</option>
+                                                                                                                    <option >55</option>
+                                                                                                                    <option >56</option>
+                                                                                                                    <option >57</option>
+                                                                                                                    <option >58</option>
+                                                                                                                    <option >59</option>
+                                                                                                                    <option >60</option>
+                                                                                                                    <option >61</option>
+                                                                                                                    <option >62</option>
+                                                                                                                    <option >63</option>
+                                                                                                                    <option >64</option>
+                                                                                                                    <option >65</option>
+                                                                                                                    <option >66</option>
+                                                                                                                    <option >67</option>
+                                                                                                                    <option >68</option>
+                                                                                                                    <option >69</option>
+                                                                                                                    <option >70</option>
+                                                                                                                    <option >71</option>
+                                                                                                                    <option >72</option>
+                                                                                                                    <option >73</option>
+                                                                                                                    <option >74</option>
+                                                                                                                    <option >75</option>
+                                                                                                            </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                        <label class="custom-label">Country Living In</label>
+                                        <div class="form-group">
+                                            <select name="present_country[]" class="form-control custom-form-control selectpicker" data-live-search="true" title="Select Country" multiple>
+                                                <!--<option value="">Select</option>-->
+                                                                                                    <option  value="1">Afghanistan</option>
+                                                                                                    <option  value="3">Algeria</option>
+                                                                                                    <option  value="13">Australia</option>
+                                                                                                    <option  value="38">Canada</option>
+                                                                                                    <option  value="82">Germany</option>
+                                                                                                    <option  value="101">India</option>
+                                                                                                    <option  value="102">Indonesia</option>
+                                                                                                    <option  value="113">Kenya</option>
+                                                                                                    <option  value="117">Kuwait</option>
+                                                                                                    <option  value="157">New Zealand</option>
+                                                                                                    <option  value="160">Nigeria</option>
+                                                                                                    <option  value="178">Qatar</option>
+                                                                                                    <option  value="196">Singapore</option>
+                                                                                                    <option  value="202">South Africa</option>
+                                                                                                    <option  value="206">Sri Lanka</option>
+                                                                                                    <option  value="211">Sweden</option>
+                                                                                                    <option  value="227">Uganda</option>
+                                                                                                    <option  value="229">United Arab Emirates</option>
+                                                                                                    <option  value="230">United Kingdom</option>
+                                                                                                    <option  value="231">United States</option>
+                                                                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                        <label class="custom-label">Caste</label>
+                                        <div class="form-group">
+                                            <select id="caste" name="caste[]" class="form-control custom-form-control" data-live-search="true" title="Select caste" multiple>
+                                                <!--<option value="">Select</option>-->
+                                                                                                                                                            <optgroup label="Agarwal" >
+                                                            <option class="hidden" value="339"  >Agarwal</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Ahir" >
+                                                            <option class="hidden" value="444"  >Ahir</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bania" >
+                                                            <option class="hidden" value="340"  >Bania</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Baniya" >
+                                                            <option class="hidden" value="41"  >Baniya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Barot" >
+                                                            <option class="hidden" value="413"  >Barot</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bengali" >
+                                                            <option class="hidden" value="43"  >Bengali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bengali" >
+                                                            <option class="hidden" value="466"  >Bengali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bhansali" >
+                                                            <option class="hidden" value="445"  >Bhansali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bhatia" >
+                                                            <option class="hidden" value="379"  >Bhatia</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bhavsar" >
+                                                            <option class="hidden" value="47"  >Bhavsar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bishnoi" >
+                                                            <option class="hidden" value="467"  >Bishnoi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Bohra" >
+                                                            <option class="hidden" value="358"  >Bohra</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmbhatt
+" >
+                                                            <option class="hidden" value="414"  >Brahmbhatt
+</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin" >
+                                                            <option class="hidden" value="51"  >Brahmin</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Anavil" >
+                                                            <option class="hidden" value="52"  >Brahmin Anavil</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Audichya" >
+                                                            <option class="hidden" value="53"  >Brahmin Audichya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Baj Khedawal
+" >
+                                                            <option class="hidden" value="443"  >Brahmin Baj Khedawal
+</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Bhatt" >
+                                                            <option class="hidden" value="55"  >Brahmin Bhatt</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Brahmbhatt" >
+                                                            <option class="hidden" value="57"  >Brahmin Brahmbhatt</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Brahmkshatriya" >
+                                                            <option class="hidden" value="404"  >Brahmin Brahmkshatriya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Gour" >
+                                                            <option class="hidden" value="65"  >Brahmin Gour</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Havyaka" >
+                                                            <option class="hidden" value="68"  >Brahmin Havyaka</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Maharashtrian" >
+                                                            <option class="hidden" value="81"  >Brahmin Maharashtrian</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Maithili" >
+                                                            <option class="hidden" value="82"  >Brahmin Maithili</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Modh" >
+                                                            <option class="hidden" value="405"  >Brahmin Modh</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Nagar" >
+                                                            <option class="hidden" value="83"  >Brahmin Nagar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Sanadya" >
+                                                            <option class="hidden" value="89"  >Brahmin Sanadya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Shrigor" >
+                                                            <option class="hidden" value="406"  >Brahmin Shrigor</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Shrimali" >
+                                                            <option class="hidden" value="407"  >Brahmin Shrimali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Tapodhan" >
+                                                            <option class="hidden" value="408"  >Brahmin Tapodhan</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmin Trivedi Mewada
+" >
+                                                            <option class="hidden" value="409"  >Brahmin Trivedi Mewada
+</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Brahmkshatriya
+" >
+                                                            <option class="hidden" value="415"  >Brahmkshatriya
+</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Chamar" >
+                                                            <option class="hidden" value="446"  >Chamar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Chaudhari
+" >
+                                                            <option class="hidden" value="447"  >Chaudhari
+</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Christian" >
+                                                            <option class="hidden" value="3"  >Christian</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Darbar" >
+                                                            <option class="hidden" value="448"  >Darbar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Darji" >
+                                                            <option class="hidden" value="417"  >Darji</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Gajjar" >
+                                                            <option class="hidden" value="418"  >Gajjar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Gupta" >
+                                                            <option class="hidden" value="136"  >Gupta</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Gurjar" >
+                                                            <option class="hidden" value="138"  >Gurjar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Hindu" >
+                                                            <option class="hidden" value="139"  >Hindu</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain" >
+                                                            <option class="hidden" value="343"  >Jain</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain Dasha Shrimali" >
+                                                            <option class="hidden" value="410"  >Jain Dasha Shrimali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain Deravasi" >
+                                                            <option class="hidden" value="459"  >Jain Deravasi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain Khadayata" >
+                                                            <option class="hidden" value="451"  >Jain Khadayata</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain Sthanakvasi" >
+                                                            <option class="hidden" value="464"  >Jain Sthanakvasi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jain Visha Shrimali" >
+                                                            <option class="hidden" value="411"  >Jain Visha Shrimali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jankshatriya" >
+                                                            <option class="hidden" value="449"  >Jankshatriya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Jat" >
+                                                            <option class="hidden" value="385"  >Jat</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kadiya" >
+                                                            <option class="hidden" value="422"  >Kadiya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kansara" >
+                                                            <option class="hidden" value="423"  >Kansara</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kapu" >
+                                                            <option class="hidden" value="155"  >Kapu</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kayastha" >
+                                                            <option class="hidden" value="162"  >Kayastha</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Khamar" >
+                                                            <option class="hidden" value="452"  >Khamar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kharwa" >
+                                                            <option class="hidden" value="453"  >Kharwa</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Khatik" >
+                                                            <option class="hidden" value="454"  >Khatik</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Khatri" >
+                                                            <option class="hidden" value="165"  >Khatri</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Konar" >
+                                                            <option class="hidden" value="455"  >Konar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kshatriya" >
+                                                            <option class="hidden" value="170"  >Kshatriya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Kurmi" >
+                                                            <option class="hidden" value="184"  >Kurmi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Lohana" >
+                                                            <option class="hidden" value="192"  >Lohana</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Lohar" >
+                                                            <option class="hidden" value="193"  >Lohar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Luhar" >
+                                                            <option class="hidden" value="412"  >Luhar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Maher" >
+                                                            <option class="hidden" value="456"  >Maher</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Maheshwari" >
+                                                            <option class="hidden" value="199"  >Maheshwari</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Mali" >
+                                                            <option class="hidden" value="204"  >Mali</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Maratha" >
+                                                            <option class="hidden" value="209"  >Maratha</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Marwari" >
+                                                            <option class="hidden" value="213"  >Marwari</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Mewada" >
+                                                            <option class="hidden" value="429"  >Mewada</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Mistri" >
+                                                            <option class="hidden" value="424"  >Mistri</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Mochi" >
+                                                            <option class="hidden" value="219"  >Mochi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Modh" >
+                                                            <option class="hidden" value="433"  >Modh</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Nai" >
+                                                            <option class="hidden" value="231"  >Nai</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Naidu" >
+                                                            <option class="hidden" value="233"  >Naidu</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Nayak" >
+                                                            <option class="hidden" value="243"  >Nayak</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="None" >
+                                                            <option class="hidden" value="442"  >None</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Other" >
+                                                            <option class="hidden" value="247"  >Other</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Panchal" >
+                                                            <option class="hidden" value="249"  >Panchal</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Patel" >
+                                                            <option class="hidden" value="254"  >Patel</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Patel Kadva" >
+                                                            <option class="hidden" value="257"  >Patel Kadva</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Patel Leva" >
+                                                            <option class="hidden" value="258"  >Patel Leva</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Prajapati" >
+                                                            <option class="hidden" value="262"  >Prajapati</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Punjabi" >
+                                                            <option class="hidden" value="263"  >Punjabi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Rabari" >
+                                                            <option class="hidden" value="432"  >Rabari</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Rajput" >
+                                                            <option class="hidden" value="265"  >Rajput</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Rami" >
+                                                            <option class="hidden" value="430"  >Rami</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Rana" >
+                                                            <option class="hidden" value="427"  >Rana</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Rohit" >
+                                                            <option class="hidden" value="425"  >Rohit</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Shwetamber" >
+                                                            <option class="hidden" value="351"  >Shwetamber</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Sindhi" >
+                                                            <option class="hidden" value="283"  >Sindhi</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Soni" >
+                                                            <option class="hidden" value="419"  >Soni</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Sorathiya" >
+                                                            <option class="hidden" value="458"  >Sorathiya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Suthar" >
+                                                            <option class="hidden" value="420"  >Suthar</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="THAKKAR" >
+                                                            <option class="hidden" value="416"  >THAKKAR</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vaishnav" >
+                                                            <option class="hidden" value="314"  >Vaishnav</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vaishnav Bhatia" >
+                                                            <option class="hidden" value="315"  >Vaishnav Bhatia</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vaishnav Vania" >
+                                                            <option class="hidden" value="316"  >Vaishnav Vania</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vaishya" >
+                                                            <option class="hidden" value="353"  >Vaishya</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Valand" >
+                                                            <option class="hidden" value="319"  >Valand</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vanik" >
+                                                            <option class="hidden" value="462"  >Vanik</option>
+                                                        </optgroup>
+                                                                                                                                                                                                                <optgroup label="Vankar" >
+                                                            <option class="hidden" value="426"  >Vankar</option>
+                                                        </optgroup>
+                                                                                                                                                </select>
+                                        </div>
+                                    </div>
+
+                                     <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                        <label class="custom-label">Dosh</label>
+                                        <div class="form-group">
+                                              <select id="dosh" name="dosh[]" class="form-control custom-form-control selectpicker" data-live-search="true" title="Select dosh" multiple>
+                                            <!--<option value="Not mentioned"   >Not mentioned </option>-->
+                                                                                                                                                        <option  value="none" > None </option>
+                                                                                                                                                                                                            <option  value="manglik" > Manglik </option>
+                                                                                                                                                                                                                                                                                                                <option  value="anshik manglik" > Anshik Manglik </option>
+                                                                                                                                                                                                            <option  value="shani" > Shani </option>
+                                                                                                                                                                                                            <option  value="mangal &amp; shani" > Mangal &amp; Shani </option>
+                                                                                                                                                </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                        <label class="custom-label">Marital Status</label>
+                                        <div class="form-group">
+                                            <select id="marital_status" name="marital_status[]" class="form-control custom-form-control selectpicker dropdown-menu-left" multiple>
+                                                <option value="None" > None</option>
+                                                                                                    <option value="Unmarried" > Unmarried</option>
+                                                                                                    <option value="Divorced" > Divorced</option>
+                                                                                                    <option value="Divorced with Children" > Divorced With Children</option>
+                                                                                                    <option value="Widow/Widower" > Widow/Widower</option>
+                                                                                                    <option value="Widow/Widower with Children" > Widow/Widower With Children</option>
+                                                                                                    <option value="Awaiting Divorce" > Awaiting Divorce</option>
+                                                                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-xs-12">
+                                        <div class="form-group search-btn-wrap">
+                                            <button class="btn custom-btn red-btn text-uppercase search-btn">Search</button>
+                                        </div>
+                                    </div>
+                                <!--- End Serach Form -->
+                                <div class="gredient-line"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+                
+            <div class="container">
+                <div class="row">
+                    <div id="success-alert-div" class="col-lg-12 success-alert-div" style="margin-top: 10px;display:none;">
+                        <div class="alert alert-success alert-dismissable">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <span class="alert-txt"></span>
+                        </div>
+                    </div>
+                                                                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                            <form name="frmAdvanceFilter" id="frmAdvanceFilter">
+    <input type="hidden" name="_token" value="LvMghuvaTiyZAJr5odgBZ7VxkVHsZnhGTvUnmliv">
+    <input type="hidden" name="name-computer_id" value="G16834" />
+    <input type="hidden" name="gender" value="bride" />
+    <input type="hidden" name="fromAge" value="" />
+    <input type="hidden" name="toAge" value="" />
+    <input type="hidden" name="mother-tongue" value="" />
+    <input type="hidden" name="religion" value="" />
+    <input type="hidden" name="caste" value="" />
+    <input type="hidden" name="dosh" value="" />
+    <input type="hidden" name="present_country" value="" />
+    <input type="hidden" name="marital_status" value="" />
+    <input type="hidden" name="sortBy" value="" />
+    <input type="hidden" name="min-height" value="" />
+    <input type="hidden" name="max-height" value="" />
+    <input type="hidden" name="min-weight" value="" />
+    <input type="hidden" name="max-weight" value="" />
+    <input type="hidden" name="latest-users" value="0"/>
+    
+
+    <div class="red-box with-border">
+        <h5 class="main-title">Filter Results By</h5>
+        <div class="filter-block-title">
+            Height
+        </div>
+        <div class="filter-block-content range-slider-wrapper">
+            <input id="heightRange" type="text" class="span2" value="" data-slider-min="4.0" data-slider-max="8.11" data-slider-step="1" data-slider-value="[4.0,8.11]"/>
+            <div class="">
+                <span class="left-range pull-left">4'0</span>
+                <span class="right-range pull-right">8'11</span>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Weight(kg)
+        </div>
+        <div class="filter-block-content range-slider-wrapper">
+            <input id="weightRange" type="text" class="span2" value="" data-slider-min="25" data-slider-max="150" data-slider-step="1" data-slider-value="[25,150]"/>
+            <div class="">
+                <span class="left-range pull-left">25</span>
+                <span class="right-range pull-right">150</span>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Complexion
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="form-group complexion-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="complexion[]" id="Wheatish" data-selector="#Wheatish" class="input-checkbox" value="Wheatish">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Wheatish
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="complexion[]" id="dark" data-selector="#dark" class="input-checkbox" value="dark">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        dark
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="complexion[]" id="Fair" data-selector="#Fair" class="input-checkbox" value="Fair">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Fair
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Education
+        </div>
+        <div class="filter-block-content">
+            <div class="form-group">
+                <select id="degree_id" name="degree_id[]" class="form-control custom-form-control selectpicker" multiple>
+                                            <option value="35" > 12th Pass</option>
+                                            <option value="7" > Advocate</option>
+                                            <option value="56" > Architect</option>
+                                            <option value="66" > B. Arc</option>
+                                            <option value="12" > B. E</option>
+                                            <option value="10" > B. Ed.</option>
+                                            <option value="49" > B. Pharm</option>
+                                            <option value="70" > B. S. Aeronautical</option>
+                                            <option value="11" > B. Sc.</option>
+                                            <option value="58" > B.A.</option>
+                                            <option value="19" > B.B.A.</option>
+                                            <option value="44" > B.C.A</option>
+                                            <option value="16" > B.COM</option>
+                                            <option value="13" > B.COM/CA</option>
+                                            <option value="64" > B.D.S.</option>
+                                            <option value="30" > B.E. - Electrical</option>
+                                            <option value="59" > B.E. - Electronics &amp; Communication</option>
+                                            <option value="69" > B.E. - Mechanical Engineer</option>
+                                            <option value="57" > B.H.M.S. - Doctor</option>
+                                            <option value="28" > B.S.C</option>
+                                            <option value="32" > B.S.W</option>
+                                            <option value="15" > B.Tech.</option>
+                                            <option value="3" > Bachelor&#039;s Degrees</option>
+                                            <option value="55" > Business Analyst</option>
+                                            <option value="68" > Business Management</option>
+                                            <option value="46" > C.A.</option>
+                                            <option value="31" > C.A/M.COM</option>
+                                            <option value="45" > C.E. DIPLOMA</option>
+                                            <option value="33" > C.S.</option>
+                                            <option value="24" > COMPUTER ENGINEER</option>
+                                            <option value="65" > Diplome - Electrical</option>
+                                            <option value="62" > Doctor Of Pharmacy</option>
+                                            <option value="5" > Doctoral Degrees</option>
+                                            <option value="20" > E.C. - Electronics &amp; Communication Engg.</option>
+                                            <option value="74" > F.C.A. - FACUSA</option>
+                                            <option value="67" > Fashion Designer</option>
+                                            <option value="38" > INTERIOR DESIGNER</option>
+                                            <option value="6" > LL.B.</option>
+                                            <option value="17" > M. E.</option>
+                                            <option value="52" > M. E. - Structure</option>
+                                            <option value="9" > M. Ed.</option>
+                                            <option value="23" > M. S.</option>
+                                            <option value="60" > M. S.  E.C.</option>
+                                            <option value="63" > M. Sc. - Biotech</option>
+                                            <option value="51" > M. Tech - I.C.</option>
+                                            <option value="54" > M.B.B.S.</option>
+                                            <option value="34" > M.Com.</option>
+                                            <option value="47" > M.D.</option>
+                                            <option value="48" > M.D. - Pediatrician</option>
+                                            <option value="22" > M.D.S</option>
+                                            <option value="40" > M.D.S.</option>
+                                            <option value="39" > M.D.S. - Pediatric Dentist</option>
+                                            <option value="27" > M.H.A</option>
+                                            <option value="29" > M.L.T</option>
+                                            <option value="73" > M.P.A. - Master Of Performing Arts</option>
+                                            <option value="36" > M.Pharma</option>
+                                            <option value="72" > M.Phil</option>
+                                            <option value="41" > M.PHYSIOTHERAPY</option>
+                                            <option value="53" > M.S. - U.S.A.</option>
+                                            <option value="25" > M.Sc.</option>
+                                            <option value="8" > M.Sc. (I.T.)</option>
+                                            <option value="26" > M.Sc.-Microbiology</option>
+                                            <option value="42" > M.TECH</option>
+                                            <option value="61" > M.V.A. - Masters In Visual Arts</option>
+                                            <option value="4" > Master&#039;s Degrees</option>
+                                            <option value="14" > MBA</option>
+                                            <option value="50" > MBA - USA</option>
+                                            <option value="18" > MCA</option>
+                                            <option value="37" > MECHANICAL ENGINIERING TECHNOLOGY</option>
+                                            <option value="21" > Ph.D.</option>
+                                            <option value="71" > Pilot</option>
+                                            <option value="43" > Plastic Engineer</option>
+                                            <option value="2" > Undergraduate Degrees</option>
+                                    </select>
+            </div>
+        </div>
+
+
+
+
+        <div class="filter-block-title">
+            Citizen
+        </div>
+        <div class="filter-block-content">
+            <div class="form-group">
+                <select id="university_id" name="citizen[]" class="form-control custom-form-control selectpicker" multiple>
+                                            <option value="1" > Afghanistan</option>
+                                            <option value="3" > Algeria</option>
+                                            <option value="6" > Angola</option>
+                                            <option value="13" > Australia</option>
+                                            <option value="14" > Austria</option>
+                                            <option value="16" > Bahamas The</option>
+                                            <option value="21" > Belgium</option>
+                                            <option value="38" > Canada</option>
+                                            <option value="75" > France</option>
+                                            <option value="100" > Iceland</option>
+                                            <option value="101" > India</option>
+                                            <option value="113" > Kenya</option>
+                                            <option value="140" > Mauritius</option>
+                                            <option value="157" > New Zealand</option>
+                                            <option value="196" > Singapore</option>
+                                            <option value="202" > South Africa</option>
+                                            <option value="206" > Sri Lanka</option>
+                                            <option value="216" > Tanzania</option>
+                                            <option value="229" > United Arab Emirates</option>
+                                            <option value="230" > United Kingdom</option>
+                                            <option value="231" > United States</option>
+                                            <option value="245" > Zambia</option>
+                                    </select>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="filter-block-title">
+            University
+        </div>
+        <div class="filter-block-content">
+            <div class="form-group">
+                <select id="university_id" name="university_id[]" class="form-control custom-form-control selectpicker" multiple>
+                                            <option value="10" > Gujarat Technological University</option>
+                                            <option value="1" > Gujarat University</option>
+                                            <option value="4" > Imperial College London</option>
+                                            <option value="12" > Indian Institute Of Management Ahmedabad</option>
+                                            <option value="8" > Indian Institute Of Technology Bombay</option>
+                                            <option value="9" > Indian Institute Of Technology Madras</option>
+                                            <option value="5" > King&#039;s College London</option>
+                                            <option value="14" > M. S. University - Baroda</option>
+                                            <option value="13" > None</option>
+                                            <option value="6" > Queen Mary University Of London</option>
+                                            <option value="3" > The London School Of Economics And Political Science</option>
+                                            <option value="2" > University College London</option>
+                                            <option value="7" > University Of Delhi</option>
+                                            <option value="11" > University Of Rajasthan</option>
+                                    </select>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Occupation
+        </div>
+        <div class="filter-block-content">
+            <div class="form-group">
+                <select id="occupation_id" name="occupation_id[]" class="form-control custom-form-control selectpicker" multiple>
+                                            <option value="1" > None</option>
+                                            <option value="3" > Administrative</option>
+                                            <option value="4" > Architect &amp; Other Designers</option>
+                                            <option value="5" > Business/ Entrepreneur</option>
+                                            <option value="6" > CA/ CS/ Finance Related</option>
+                                            <option value="7" > Defense Services</option>
+                                            <option value="8" > Doctor</option>
+                                            <option value="9" > Engineer</option>
+                                            <option value="10" > Govt And Civil Services (IAS/ IFS/ IPS/ IRS)</option>
+                                            <option value="11" > IT/ Telecom</option>
+                                            <option value="12" > Lawyer</option>
+                                            <option value="13" > Manager/ Management</option>
+                                            <option value="14" > Healthcare/Medical</option>
+                                            <option value="15" > Not Working/ Looking For Work</option>
+                                            <option value="16" > Others</option>
+                                            <option value="17" > Sales/ Marketing/ Advertising</option>
+                                            <option value="18" > Teacher</option>
+                                            <option value="19" > IT/Software</option>
+                                            <option value="20" > Law/Legle</option>
+                                            <option value="21" > Accountant</option>
+                                            <option value="22" > Designer</option>
+                                            <option value="23" > ADJUSTMENT SPECIALIST IN BANK USA</option>
+                                            <option value="24" > Advertising</option>
+                                            <option value="25" > Agency Owner</option>
+                                            <option value="26" > Student</option>
+                                            <option value="27" > Lecturer/Professor</option>
+                                            <option value="28" > Back Office</option>
+                                            <option value="29" > Bank/Finance</option>
+                                            <option value="30" > Education</option>
+                                            <option value="31" > Fashion Industry</option>
+                                            <option value="32" > Interior Designer</option>
+                                            <option value="33" > Customer Care Executive</option>
+                                            <option value="34" > Govt. Employee</option>
+                                            <option value="35" > Hospital Staff</option>
+                                            <option value="36" > Hotel Industry</option>
+                                            <option value="37" > Household</option>
+                                            <option value="38" > Journalist/Media</option>
+                                            <option value="39" > Nurse</option>
+                                            <option value="40" > Teacher</option>
+                                            <option value="41" > Volunteer</option>
+                                            <option value="42" > Technical Support</option>
+                                            <option value="43" > Tuition</option>
+                                            <option value="44" > Scientist</option>
+                                            <option value="45" > Research</option>
+                                            <option value="46" > Real Estate</option>
+                                            <option value="47" > Service</option>
+                                            <option value="48" > Stock Broker</option>
+                                            <option value="49" > Professional</option>
+                                            <option value="50" > Physiotherapist</option>
+                                            <option value="51" > Pharmacist</option>
+                                            <option value="52" > Multimedia</option>
+                                            <option value="53" > Pilot</option>
+                                            <option value="54" > Entertainment</option>
+                                            <option value="55" > Commercial Artist</option>
+                                            <option value="56" > Clerical</option>
+                                            <option value="57" > Optician</option>
+                                            <option value="58" > Consultant</option>
+                                            <option value="59" > Designing</option>
+                                            <option value="60" > Internet</option>
+                                            <option value="61" > Psychologist</option>
+                                            <option value="62" > Any</option>
+                                            <option value="63" > Front Office</option>
+                                            <option value="64" > Reception</option>
+                                            <option value="65" > Social Service</option>
+                                            <option value="66" > None Of Above</option>
+                                            <option value="67" > Advisor</option>
+                                            <option value="68" > Chief Executive</option>
+                                            <option value="69" > Principal</option>
+                                            <option value="70" > Finance Advisor</option>
+                                            <option value="71" > Bio-Technology</option>
+                                            <option value="72" > Gen.Medical Practice</option>
+                                            <option value="73" > Pathology Lab.</option>
+                                            <option value="74" > Advocate</option>
+                                            <option value="75" > Retired</option>
+                                            <option value="76" > Builder</option>
+                                            <option value="77" > Financial Advisor</option>
+                                            <option value="78" > News Anchor</option>
+                                            <option value="79" > Fashin Designing</option>
+                                    </select>
+            </div>
+        </div>
+        
+        <div class="filter-block-title photo-block">
+            <span>Photo </span>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="photo" id="photo" data-selector="#photo" class="input-checkbox" value="1">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                </label>
+            </div>
+        </div>
+
+         <div class="filter-block-title">
+            Residential Type
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="checkbox">
+                <label class="">
+                    <input type="checkbox" id="residential_structure-not-mentioned" name="residential_structure[]" data-tag-text="Lives in not mentioned" data-selector="#residential_structure-not-mentioned" class="input-checkbox" value="not mentioned">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Not Mentioned
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="">
+                    <input type="checkbox" id="residential_structure-flat" name="residential_structure[]" data-tag-text="Lives in Flat" data-selector="#residential_structure-flat" class="input-checkbox" value="flat">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Flat
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="">
+                    <input type="checkbox" id="residential_structure-bunglow" name="residential_structure[]" data-tag-text="Lives in Bunglows" data-selector="#residential_structure-bunglow" class="input-radio" value="bunglow">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Bunglows
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="">
+                    <input type="checkbox" id="residential_structure-rowhouse" name="residential_structure[]" data-tag-text="Lives in Rowhouse" data-selector="#residential_structure-rowhouse" class="input-checkbox" value="rowhouse">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Rowhouse
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="">
+                    <input type="checkbox" id="residential_structure-tenament" name="residential_structure[]" data-tag-text="Lives in Tenament" data-selector="#residential_structure-tenament" class="input-radio" value="tenament">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Tenament
+                </label>
+            </div>
+        </div>
+
+        <div class="filter-block-title">
+            Drink
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="checkbox">
+                <label class="text-uppercase ">
+                    <input type="checkbox" id="drink-yes" name="drink[]" data-tag-text="drinker" data-selector="#drink-yes" class="input-checkbox" value="yes">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Yes
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="text-uppercase ">
+                    <input type="checkbox" id="drink-no" name="drink[]" data-tag-text="Non-drinker" data-selector="#drink-no" class="input-checkbox" value="no">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    No
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="text-uppercase">
+                    <input type="checkbox" id="drink-occasionally" name="drink[]" data-tag-text="Drinks Occasionally" data-selector="#drink-occasionally" class="input-radio" value="occasionally">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Occasionally
+                </label>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Smoke
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="checkbox">
+                <label class="text-uppercase">
+                    <input type="checkbox" id="smoke-yes" name="smoke[]" data-tag-text="Smoker" data-selector="#smoke-yes" class="input-radio" value="yes">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Yes
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="text-uppercase ">
+                    <input type="checkbox" id="smoke-no" name="smoke[]" data-tag-text="Non-smoker" data-selector="#smoke-no" class="input-radio" value="no">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    No
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class="text-uppercase">
+                    <input type="checkbox" id="smoke-occasionally" name="smoke[]" data-tag-text="Smokes Occasionally" data-selector="#smoke-occasionally" class="input-radio" value="occasionally">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    Occasionally
+                </label>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Diet
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="form-group complexion-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="diet[]" id="Non-Vegetarian" data-selector="#Non-Vegetarian" class="input-checkbox" value="Non-Vegetarian">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Non-Vegetarian
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="diet[]" id="Vegetarian" data-selector="#Vegetarian" class="input-checkbox" value="Vegetarian">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Vegetarian
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="diet[]" id="Jain" data-selector="#Jain" class="input-checkbox" value="Jain">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Jain
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="diet[]" id="Swaminarayan" data-selector="#Swaminarayan" class="input-checkbox" value="Swaminarayan">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Swaminarayan
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-block-title">
+            Body Type
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="form-group complexion-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="body_structure[]" id="Athletic" data-selector="#Athletic" class="input-checkbox" value="Athletic">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Athletic
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="body_structure[]" id="Slim" data-selector="#Slim" class="input-checkbox" value="Slim">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Slim
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="body_structure[]" id="Average" data-selector="#Average" class="input-checkbox" value="Average">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Average
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="body_structure[]" id="Heavy" data-selector="#Heavy" class="input-checkbox" value="Heavy">
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                        Heavy
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+          <div class="filter-block-title">
+            Has Spectacles
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="radio">
+                <label class="text-uppercase ">
+                    <input type="radio" id="has_spectacles-yes" name="has_spectacles" data-tag-text="Physical defect" data-selector="#has_spectacles-yes" class="input-radio" value="1">
+                    <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                    Yes
+                </label>
+            </div>
+            <div class="radio">
+                <label class="text-uppercase ">
+                    <input type="radio" id="has_spectacles-no" name="has_spectacles" data-tag-text="No physical defects" data-selector="#has_spectacles-no" class="input-radio" value="0">
+                    <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                    No
+                </label>
+            </div>
+        </div>
+
+
+
+
+        <div class="filter-block-title">
+            Any Disability
+        </div>
+        <div class="filter-block-content custom-filter-block-content">
+            <div class="radio">
+                <label class="text-uppercase ">
+                    <input type="radio" id="has_disability-yes" name="has_disability" data-tag-text="Physical defect" data-selector="#has_disability-yes" class="input-radio" value="1">
+                    <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                    Yes
+                </label>
+            </div>
+            <div class="radio">
+                <label class="text-uppercase ">
+                    <input type="radio" id="has_disability-no" name="has_disability" data-tag-text="No physical defects" data-selector="#has_disability-no" class="input-radio" value="0">
+                    <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+                    No
+                </label>
+            </div>
+        </div>
+    </div>
+</form>                        </div>
+                    <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12  right-block ">
+                        <div class="red-box sort-result-block">
+                            <h5 class="main-title">
+                                <span class="sort-result-title">Sort Results By </span>
+                                <div class="form-group sort-result-form-group">
+                                    <select id="sortBy" name="sortBy" class="form-control custom-form-control selectpicker">
+                                        <option value="recent_registration">Recent Registration</option>
+                                        <option value="recent_site_access">Recent Site Access</option>
+                                    </select>
+                                </div>
+                                <div class="pull-right">
+                                    <form id="frmLatest30" action="http://www.beta.swayamwar4u.com/search">
+                                        <input type="hidden" name="latest-users" value="0"/>
+                                        <a id="btn-latest-30" class="btn custom-btn sort-btn white-btn " href="javascript:;">Latest 30 Candidates</a>  
+                                        <a onclick="location.href='http://www.beta.swayamwar4u.com/search'+'?upcoming-nri=1'" class="btn custom-btn sort-btn white-btn " href="javascript:;">Upcoming NRI</a>
+                                    </form>
+                                    <!--<a id="btn-latest-30" class="btn custom-btn sort-btn white-btn " href="javascript:;">Latest 30</a>-->
+                                </div>
+                            </h5>
+                        </div>
+                        
+                        <!-- Start Search tag -->
+                        <div class="tags-wrapper">
+                        </div>
+                        <!-- End Search tag -->
+
+                        <!-- Pagination in Header -->
+                        
+                        <!-- End Pagination in Header -->
+                        
+                        <!-- Start Search profile block -->
+                        
+                            <!-- User profile display block with pagination -->
+                            <div id="main-search-result-div"> 
+    <!-- Pagination in Header -->
+                    <div class="pagination-row pagination-none">
+            <p class="pagination-Showing" >Showing  
+
+                        1 to
+            1 
+                        entries out of 1
+            
+            
+
+            </p>
+            <!-- <nav aria-label="Page navigation" class="pagination-nav">
+                
+            </nav> -->
+        </div>
+            
+
+                     
+    <!-- End Pagination in Header -->
+            <div class="match-block">
+    
+
+            <!-- Mobile View -->
+        <div class="title-row-mobile">
+        <h3 class="match-title">
+            <a target="_blank" href="http://www.beta.swayamwar4u.com/profile/G16834" style="cursor:pointer" title="" >
+                VRUDDHI NIRANJANBHAI DOSHI
+            </a>
+            <small>( G16834 )</small>            
+        </h3>
+            <div class="icon-wrap">
+                <!-- send message -->
+                                <a href="javascript:;" style="cursor:pointer" title="" class="icon btn-create-message" data-user-id="16834" data-user-name="VRUDDHI NIRANJANBHAI DOSHI" data-user-img="http://www.beta.swayamwar4u.com/storage/user-images/G16834.jpg" >
+                    <img src="http://www.beta.swayamwar4u.com/images/message-icon-red.png" class="img-responsive">
+                </a>
+                <!-- add to Favorite -->
+                
+                <!-- add to Favorite -->
+                <a href="javascript:;" class="icon btn-add-remove-fav" data-is-fav="0" style="cursor:pointer"  title="" data-shortlisted-to="16834" >
+                    <img src="images/heart-icon-red.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+
+        <div class="img-wrap">
+            <a target="_blank" href="http://www.beta.swayamwar4u.com/profile/G16834">
+                                <img data-active="2897"  data-user-id="16834" 
+                 data-user-status="active"
+                  data-has-paid="1" src="http://www.beta.swayamwar4u.com/storage/user-images/G16834.jpg" class="img-responsive" >
+            </a>
+        </div>
+
+
+        <div class="content-wrap">
+                <div class="title-row">
+                   
+                     <h3 class="match-title">
+                        <a target="_blank" href="http://www.beta.swayamwar4u.com/profile/G16834" style="cursor:pointer" title="" >
+                            VRUDDHI NIRANJANBHAI DOSHI 
+                        </a>
+                        <small>( G16834 )</small>
+                        </h3>
+
+                    <div class="icon-wrap">
+                        <!-- send message -->
+                                                <a href="javascript:;" style="cursor:pointer" title="" class="icon btn-create-message" data-user-id="16834" data-user-name="VRUDDHI NIRANJANBHAI DOSHI" data-user-img="http://www.beta.swayamwar4u.com/storage/user-images/G16834.jpg" >
+                            <img src="http://www.beta.swayamwar4u.com/images/message-icon-red.png" class="img-responsive">
+                        </a>
+                        
+                        <!-- add to Favorite -->
+                        <a href="javascript:;" class="icon btn-add-remove-fav" data-is-fav="0" style="cursor:pointer"  title="" data-shortlisted-to="16834" >
+                            <img src="images/heart-icon-red.png" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="content-row">
+    <div class="left-content">
+        <p>Age : <span> 26 years </span></p>
+        <p>Dosh : <span> Manglik</span></p>
+        <p>Marital Status : <span>Unmarried</span></p>
+        <p>Caste : 
+            
+            <span>
+                                    Jain
+                                           - DERAVASI
+                                                </span>
+        </p>
+       
+
+        <p>Height & Weight : <span> 
+                                    5&#039;
+                3&#039;&#039;
+             / 
+            50 kgs
+                    </span></p>
+
+        
+
+
+       
+        
+        
+        
+        
+        
+        
+      
+    </div>
+    <div class="right-content">
+    
+         <p>Present Location : <span> 
+                  India
+             
+         
+          </span></p> 
+
+           <p>Citizen : <span> India</span></p>
+            <p>Occupation : <span> Professional</span></p>
+            
+            <p>Registration Date: <span> 06-Mar-2017</span></p>
+        
+        
+                <p>Compatibility Score : <span class="big">50%</span></p>
+            </div>
+</div>
+
+                <div class="profile-link">
+                    <a target="_blank" href="http://www.beta.swayamwar4u.com/profile/G16834">View Full Profile</a>
+                </div>
+
+                
+                   
+           
+    
+        <div class="last-active text-right">
+                    <p>Last Active : <span> 2nd November, 2017</span></p>
+                </div>
+    </div>
+</div>
+    
+
+        <div class="pagination-row">
+        <p class="pagination-Showing">  
+
+                Showing
+        1 to
+        1 
+        
+        entries out of 1
+        
+        
+                </p>
+        <nav aria-label="Page navigation" class="pagination-nav">
+            
+        </nav>
+    </div>
+    
+</div>                     
+                        <!-- End Search profile block -->
+                    </div>
+                                    </div>
+            </div>
+        </section>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <p>© Copyright 2017 - Swayamwar4u , All rights reserved</p>
+                </div>
+                                    <div class="col-md-4 col-sm-4 text-center">
+                        <p class="links">
+                            <a class="" href="http://www.beta.swayamwar4u.com/about">About </a></li>
+                            <a href="http://www.beta.swayamwar4u.com/success_stories">Success Stories </a></li>
+                            <a href="http://www.beta.swayamwar4u.com/contact_us">Contact </a></li>
+                        </p>
+                    </div>
+                                <div class="col-md-4 col-sm-4 text-right social-icons">
+                    <!-- <a href="#" title="google plus">
+                        <img src="http://www.beta.swayamwar4u.com/images/gplus-icon.png" alt="">
+                    </a> -->
+                    <a target="_blank" href="https://www.facebook.com/Swayamwar4u-882821365201190/" title="facebook">
+                        <img src="http://www.beta.swayamwar4u.com/images/facebook-icon.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/swayamwar4u/" title="instagram">
+                        <img src="http://www.beta.swayamwar4u.com/images/instagram-icon.png" alt="">
+                    </a>
+                    <!-- <a href="#" title="google plus">
+                        <img src="http://www.beta.swayamwar4u.com/images/twitter-icon.png" alt="">
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+                <div id="newMessageModal" class="modal fade custom-modal new-msg-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close cancle" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Write Message</h4>
+            </div>
+            <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="media">
+                        <div class="media-left">               
+                                <img src="http://www.beta.swayamwar4u.com/images/no-image.jpg" alt="" class="media-object person-img-thumb">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="person-name"> </h4>
+                            <!--   <p class="msg-date-time">Friday, 22 March,2017 <span>15:37</span></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <form name="add-message" id="add-message" class="new-msg-form" action="http://www.beta.swayamwar4u.com/user/message" method="post">
+                                        <input type="hidden" name="_token" value="LvMghuvaTiyZAJr5odgBZ7VxkVHsZnhGTvUnmliv">
+                    <input type="hidden" name="sender_id" value="17576">
+                    <input type="hidden" name="receiver_id" value="">
+                                             <!--  <div class="form-group input-subject">
+                            <label for="" class="custom-label">Subject</label>
+                            <input type="text" name="" value="" placeholder="" class="form-control custom-form-control">
+                        </div> -->
+                        <div class="form-group">
+                            <label for="" class="custom-label">Message<sub class="require"> *</sub></label>
+                            <textarea name="message" id="message" class="form-control custom-form-control" placeholder=""></textarea>
+                        </div>
+                        <div class="form-group btn-wrapper">
+                            <input type="submit" name="" value="Send" class="btn custom-btn red-btn">
+                            <input type="button" data-dismiss="modal" class="btn custom-btn cancel-btn cancle" value="Cancel">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->    
+    <div id="alertModal" class="modal fade custom-modal new-msg-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close cancle" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Alert</h4>
+            </div>
+            <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4> </h4>
+                            <!--   <p class="msg-date-time">Friday, 22 March,2017 <span>15:37</span></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        <p > Please complete your Profile Information up to 100%. </p>
+                        <a href="http://www.beta.swayamwar4u.com/user" class="btn red-btn text-uppercase">Go to profile </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    <script src="http://www.beta.swayamwar4u.com/js/common/jquery-3.2.0.min.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/common/bootstrap.min.js"></script>
+    
+        <script src="http://www.beta.swayamwar4u.com/plugin/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/common/modified-bootstrap-multiselect.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/common/jquery.validate.min.js"></script>
+    
+    <script type="text/javascript">
+
+        $('#caste').multiselect({
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering : true,
+            maxHeight: 200,
+            numberDisplayed: 1,
+            nonSelectedText: 'Select Caste',
+        });
+
+        $('form[name="frmSearch"]').validate({
+            rules: {
+                    'gender':{ required : true },
+                    /*'fromAge':{ required : true },
+                    'toAge':{ required : true },*/
+                },
+            errorPlacement: function(error, element){
+                if( element.attr('name') == "gender"){
+                    error.appendTo( element.closest('.search-group-bride-groom') );
+                    $('#gender-error').css("margin-left","110px");
+                }
+                else
+                    error.insertAfter(element);
+            }
+        });
+               
+    </script>
+    
+    <script src="http://www.beta.swayamwar4u.com/js/frontend/script.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/frontend/moment.min.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/common/bootstrap-slider.js"></script>
+    <script src="http://www.beta.swayamwar4u.com/js/frontend/bootstrap-datetimepicker.min.js" type="text/javascript" ></script>
+    <script src="http://www.beta.swayamwar4u.com/js/common/block-ui-1.7.js"></script>
+
+    <script type="text/javascript">
+        function getUserData(page = null){
+            setTimeout(function() {
+                
+                var formData = $('#frmAdvanceFilter').serialize();
+                var sURL = "http://www.beta.swayamwar4u.com/advance-search";
+                if(page){
+                    sURL = "http://www.beta.swayamwar4u.com/advance-search" + '?page=' + page;
+                }
+                $.ajax({
+                    url: sURL,
+                    async: false,
+                    data: formData,
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function(resp){
+                        $('#domBlockUI').addClass('showBLockUI-success');
+                        $('#main-search-result-div').html('');
+                        $('#main-search-result-div').html(resp);
+                    },
+                    error: function(err){
+                        $('#domBlockUI').addClass('showBLockUI-error');
+                        console.log('error');
+                        if(err.responseText){
+                            console.log(JSON.parse(err.responseText));
+                        }
+                    }
+                });                    
+            }, 0);
+        }
+
+        function getSearchResultHtml(resp){
+            var html = '<div class="match-block"><div class="img-wrap"><a target="_blank" href="##profile_url##"><img data-active="3721" data-user-id="##user_id##" data-user-status="active" data-has-paid="1" src="##profile_pic_full_path##" class="img-responsive"></a></div>';
+
+            html += '<div class="content-wrap"><div class="title-row"><h3 class="match-title"><a target="_blank" href="##profile_url##" style="cursor:pointer" title="">##full_name##</a><small>(##computer_id##)</small></h3><div class="icon-wrap"><a href="javascript:;" style="cursor:pointer" title="" class="icon btn-create-message" data-user-id="##user_id##" data-user-name="##full_name##" data-user-img="##profile_pic_full_path##"><img src="http://localhost/swayamwar4u/public/images/message-icon-red.png" class="img-responsive"></a><a href="javascript:;" class="icon btn-add-remove-fav" data-is-fav="0" style="cursor:pointer" title="" data-shortlisted-to="3"><img src="http://localhost/swayamwar4u/public/images/heart-icon-red.png" class="img-responsive"></a></div></div>';
+
+            html += ' <div class="content-row"><div class="left-content"><p>Age : <span>##age##</span></p><p>Dosh : <span> ##dosh##</span></p><p>Marital Status : <span>##marital_status##</span></p><p>Caste : <span>##caste##</span> </p><p>Height &amp; Weight : <span>##height##/##weight##</span></p></div><div class="right-content"><p>Present Location : <span>##present_location##</span></p><p>Citizen : <span>##citizen##</span></p><p>Occupation : <span> ##occupation##</span></p><p>Registration Date: <span>##registration_date##</span></p><p>Compatibility Score : <span class="big">##compatibility_score##</span></p></div></div>';
+
+            html += '<div class="profile-link"><a target="_blank" href="http://localhost/swayamwar4u/public/profile/B3">View Full Profile</a></div><div class="last-active text-right"><p>Last Active : <span> 1st September, 2017</span></p></div></div></div>';
+
+            return html;
+        }
+    </script>
+
+    <script type="text/javascript">
+        $("#heightRange").slider({});
+        $("#weightRange").slider({});
+        
+        $('select[name="fromAge"]').on('change', function(event) {
+            var val = $(this).val();
+            var option = '<option value="" selected>Select</option>';
+            for (i = val; i <= 75; i++) { 
+                option += '<option value="'+i+'">'+i+'</option>';
+            }
+            $('#toAge').html(option);
+            $('#toAge').selectpicker('refresh');
+        });
+
+        /* Show alert modal */
+        $(document).ready( function(){
+            $('body').on('click', '.show-alert', function(){
+                var authUser = "1";
+                if(authUser){
+                    $('#alertModal').modal('show');
+                }
+            });
+        });
+        
+    </script>
+
+    
+        <!--Start Send message -->
+        <script type="text/javascript">
+            $(document).ready( function(){
+                $('body').on('click', '.btn-create-message', function(){
+                    var $elem = $(this);
+                    $('#newMessageModal .person-name').text( $elem.data('user-name') );
+                    $('#newMessageModal .person-img-thumb').attr('src', $elem.data('user-img') );
+                    $('#newMessageModal #add-message input[name="receiver_id"]').val( $elem.data('user-id') );
+                    $('#newMessageModal').modal('show');
+                });
+
+                $('form[name="add-message"]').validate({
+                    rules: {
+                        'message': {required: true},
+                    },
+                    errorElement: 'span'
+                });
+                
+                $('body').on('submit','#add-message', function(event) {
+                    event.preventDefault();
+                    $.ajax({
+                        type: 'POST',
+                        url: base_url + "/user/message",
+                        data: $("#add-message").serialize(),
+                        success: function (data) {
+                            if(data.success){
+                                $('#newMessageModal').modal('hide');
+                                $('.success-alert-div .alert-txt').text('Your message has been successfully sent.');
+                                $('.success-alert-div').animate().slideDown();
+                                $('html, body').animate({
+                                    scrollTop: $('#success-alert-div').offset().top,
+                                });
+                                setTimeout(function(){
+                                    $('.success-alert-div').animate().slideUp();
+                                }, 4000);
+                                $('#add-message textarea[name="message"]').val('');
+                            }
+                        },
+                        error: function () {}
+                    });
+                }); 
+            });
+            $('.cancle').on('click', function(event) {
+                $('#message').val('');
+            });
+        </script>
+        <!--End Send message -->
+
+        <!--Start  Add to Favorite -->
+        <script type="text/javascript">
+
+            $('body').on('click', '.btn-add-remove-fav', function(){
+                var isFav = $(this).data('is-fav');
+                if(isFav > 0)
+                    addRemove($(this), 'deactive');
+                else
+                    addRemove($(this), 'active');
+            });
+
+            function addRemove($elem, status){
+                $.ajax({
+                    url : "http://www.beta.swayamwar4u.com/user/shortlisted",
+                    data: {
+                        shortlisted_by: "17576",
+                        shortlisted_to: $elem.data('shortlisted-to'),
+                        status : status
+                    },
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function(resp){
+                        $elem.data('is-fav', resp.activeStatus );
+                        if(resp.activeStatus ){
+                            $elem.find('img').attr('src' ,base_url+'/images/favorite-icon.png');
+                        }else{
+                            $elem.find('img').attr('src' ,base_url+'/images/heart-icon-red.png');
+                        }
+                    }
+                });
+            }
+        </script>
+        <!--End Add to Favorite -->
+    
+    <!-- Start Ajax search filter , Tag show hide -->
+
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $( "#heightRange").trigger('slideStop');
+            $( "#weightRange").trigger('slideStop');
+        
+            $('.tags-wrapper').on('click','.remove-tag', function(){
+                var $elem = $(this);
+                if( $elem.hasClass('tag-input-checkbox') ){
+                    // checkbox
+                    $($elem.attr('data-selector')).prop('checked', false).change();
+                }else if( $elem.attr('data-selector') == "#weightRange" ){
+                    $( "#weightRange").slider('setValue',[ 25, 150]);
+                    $( "#weightRange").trigger('slideStop');
+                }else if( $elem.attr('data-selector') == "#heightRange" ){
+                    $( "#heightRange").slider('setValue',[ 4, 8]);
+                    $( "#heightRange").trigger('slideStop');
+                }
+                else{
+                    // dropdown
+                    $($elem.attr('data-selector')).prop('selected', false);
+                    $($elem.attr('data-dropdown')).selectpicker('refresh');
+                }
+                $elem.parent('a').remove();
+                getUserData();
+            });
+
+            $('#frmSearch #caste').on('changed.bs.select', function(e, clickedIndex, isSelected, isDeSelected){
+                var $elem = $(this);
+                var dropdownId = $elem.attr('id');
+                if( dropdownId == "caste" ){
+                    var parentCasteId = $.trim($elem.find('option:eq(' + clickedIndex + ')').attr('data-parent-id'));
+                    var casteId = $.trim($elem.find('option:eq(' + clickedIndex + ')').attr('data-id'));
+                    if( isSelected )
+                    {
+                        $( '#caste option[data-parent-id='+casteId+']').prop('selected', true);
+                    }else if( isDeSelected){
+                        $( '#caste option[data-parent-id='+casteId+']').prop('selected', false);
+                    }
+                    $('#caste').selectpicker('refresh');
+                }
+            });
+
+            $('#frmAdvanceFilter select').on('changed.bs.select', function(e, clickedIndex, isSelected, isDeSelected){
+                getUserData();
+                var $elem = $(this);
+                var dropdownId = $elem.attr('id');
+                var selectedValue = $.trim($elem.find('option:eq(' + clickedIndex + ')').val());
+                var selectedText = $.trim($elem.find('option:eq(' + clickedIndex + ')').text());
+                var dataSelector = "#" + $elem.attr('id') +" option[value='"+selectedValue+"']";
+            
+                if(isSelected){
+                    var html = '<a href="javascript:;" title="" class="tag">'+ selectedText +'<i class="fa fa-times remove-tag" aria-hidden="true" data-dropdown="#'+ dropdownId +'" data-value="'+ selectedValue +'" data-selector="'+ dataSelector +'"></i></a>';
+                    
+                    if(dropdownId == "monthely_income" && $('[data-dropdown="#monthely_income"]').length ){
+                        // monthely_income already exists , replace tag with new option
+                        $('[data-dropdown="#monthely_income"]').parent('a').replaceWith(html);
+                    }else{
+                        // tag does not exists , create new tag 
+                        $('.tags-wrapper').append(html);
+                    }
+                }
+                else{
+                    $('[data-dropdown="#'+ dropdownId +'"][data-value="'+ selectedValue +'"]').parent('a').remove();
+                }
+            });
+
+            /** Checkbox **/
+            $('#frmAdvanceFilter .input-radio').on('change',function(e){
+                var $elem = $(e.target);
+                var dropdownId = $elem.attr('id');
+                var dataSelector = $elem.attr('data-selector');
+                var selectedText = $elem.attr('data-tag-text');
+                if( typeof selectedText === typeof undefined && selectedText === false ){
+                    selectedText = dropdownId;
+                }
+                getUserData();
+                if($elem.is(':checked')){
+                    $('[data-dropdown^="#'+ $elem.attr('name') +'"]').parent('a').remove();
+                    var html = '<a href="javascript:;" title="" class="tag"> '+ selectedText +' <i class="fa fa-times remove-tag tag-input-checkbox" aria-hidden="true" data-dropdown="#'+ dropdownId +'" data-value="'+ dropdownId +'" data-selector="'+ dataSelector +'"></i></a>';
+                    $('.tags-wrapper').append(html);
+                }else{
+                    $('[data-dropdown^="'+ dataSelector +'"]').parent('a').remove();
+                }
+            });
+
+            /** Radio buttons **/
+            $('#frmAdvanceFilter .input-checkbox').on('change',function(e){
+                var $elem = $(e.target);
+                var dropdownId = $elem.attr('id');
+                var dataSelector = $elem.attr('data-selector');
+                var selectedText = $elem.attr('data-tag-text');
+                if( typeof selectedText === typeof undefined ){
+                    selectedText = dropdownId;
+                }
+                getUserData();
+                if($elem.is(':checked')){
+                    var html = '<a href="javascript:;" title="" class="tag"> '+ selectedText +' <i class="fa fa-times remove-tag tag-input-checkbox" aria-hidden="true" data-dropdown="#'+ dropdownId +'" data-value="'+ dropdownId +'" data-selector="'+ dataSelector +'"></i></a>';
+                    $('.tags-wrapper').append(html);
+                }else{
+                    $('[data-dropdown="'+ dataSelector +'"][data-value="'+ dropdownId +'"]').parent('a').remove();
+                }
+            });
+
+            /*
+             * Filter latest 30
+             */
+
+            $('#btn-latest-30').on('click', function(){
+                var $elem = $(this);
+                if($elem.hasClass('active')){
+                    $elem.removeClass('active');
+                    $('input[name="latest-users"]').val(0);
+                }else{
+                    $elem.addClass('active');
+                    $('input[name="latest-users"]').val(1);
+                }
+                $('#frmLatest30').submit();
+            });
+
+            $('#sortBy').on('change',function(){
+                $('input[name="sortBy"]').val($(this).val());
+                getUserData();
+            });
+
+            if( $('#heightRange').length ){
+                $('#heightRange').slider().on('slideStop', function(ev){
+                    var newVal = $('#heightRange').data('slider').getValue();
+                    $('input[name="min-height"]').val(newVal[0]);
+                    $('input[name="max-height"]').val(newVal[1]);
+                    tagCreate('heightRange', '#heightRange', newVal[0] +' to '+ newVal[1], newVal[0] +' to '+ newVal[1]);
+                    getUserData();
+                });
+            }
+            if( $('#weightRange').length ){
+                $('#weightRange').slider().on('slideStop', function(ev){
+                    var newVal = $('#weightRange').data('slider').getValue();
+                    $('input[name="min-weight"]').val(newVal[0]);
+                    $('input[name="max-weight"]').val(newVal[1]);
+                    tagCreate('weightRange', '#weightRange', newVal[0] +' to '+ newVal[1], newVal[0] +' to '+ newVal[1]);
+                    getUserData();
+                });
+            }
+
+
+            // tag create for slider input
+            function tagCreate(dropdownId, dataSelector, selectedText, selectedValue){
+                var html = '<a href="javascript:;" title="" class="tag">'+ selectedText +'<i class="fa fa-times remove-tag" aria-hidden="true" data-dropdown="#'+ dropdownId +'" data-value="'+ selectedValue +'" data-selector="'+ dataSelector +'"></i></a>';
+                if(dropdownId == "weightRange" && $('[data-dropdown="#weightRange"]').length ){
+                    $('[data-dropdown="#weightRange"]').parent('a').replaceWith(html);
+                }else if(dropdownId == "heightRange" && $('[data-dropdown="#heightRange"]').length ){
+                    $('[data-dropdown="#heightRange"]').parent('a').replaceWith(html);
+                }
+                else{
+                    $('.tags-wrapper').append(html);
+                }            
+            }
+
+            function ChangeUrl(page, url) {
+                if (typeof (history.pushState) != "undefined") {
+                    var obj = { Page: page, Url: url };
+                    history.pushState(obj, obj.Page, obj.Url);
+                } else {
+                    console.info("Browser does not support HTML5.");
+                }
+            }
+
+            $(document).on('click', '.pagination a', function (e) {
+                e.preventDefault();
+                var page = $(this).attr('href').split('page=')[1];
+                getUserData(page);
+
+                var pageParam =  {"latest-users":"0","name-computer_id":"G16834","gender":"bride","fromAge":null,"toAge":null};
+                pageParam['page'] = page;
+                var url = base_url + '/search?' + $.param(pageParam);
+                ChangeUrl(page, url);
+                
+                $('html, body').animate({
+                    scrollTop: $('#btn-latest-30').offset().top,
+                }, 2000);
+            });
+        });
+        $(window).on('hashchange', function() {
+            if (window.location.hash) {
+                var page = window.location.hash.replace('#', '');
+                if (page == Number.NaN || page <= 0) {
+                    return false;
+                } else {
+                    getUserData(page);
+                }
+            }
+        });
+    </script>
+    <!-- End Ajax search filter -->
+
+</body>
+
+</html>

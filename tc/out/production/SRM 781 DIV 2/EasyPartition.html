@@ -1,0 +1,26 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+Ramanujan loved partitions.
+And he also loved natural numbers.
+So, yay!
+He has a problem for you.
+</p>
+<p>
+The set S consists of the first 8*<b>N</b> natural numbers: S = { 1, 2, 3, ..., 8*<b>N</b> }.
+You have to find a subset W of S with the following properties:
+</p>
+<ul>
+<li>W contains exactly 2*<b>N</b> numbers.</li>
+<li>The sum of W is 4*<b>N</b>*<b>N</b>.</li>
+</ul>
+<p>
+If there is a subset W satisfying the mentioned condition, find any one such subset.
+Return a string of size 8*<b>N</b>, where the ith character (1-indexed) is '1' if i belongs to W, and '0' otherwise.
+Any valid solution will be accepted.
+</p>
+<p>
+Return an empty string if it is impossible to construct a valid subset for the given <b>N</b>.
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>EasyPartition</td></tr><tr><td>Method:</td><td>getPartition</td></tr><tr><td>Parameters:</td><td>int</td></tr><tr><td>Returns:</td><td>String</td></tr><tr><td>Method signature:</td><td>String getPartition(int N)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Notes</h3></td></tr><tr><td align="center" valign="top">-</td><td>W is a subset of S, hence all elements of W must be distinct.</td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>N</b> will be between 1 and 50, inclusive.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>1</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;10100000&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"><pre>W = {1,3} satisfies our conditions.</pre></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>2</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;0110110000000000&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"><pre> 
+4 * N * N = 16.
+W={2,3,5,7}
+Other possible solutions are {1,3,5,7}, {1,2,6,7}, {1,2,5,8} etc.
+</pre></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>3</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;010110110100000000000000&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"><pre>W = {2,4,5,7,8,10} satisfies.</pre></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>4</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;01010110110101000000000000000000&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>

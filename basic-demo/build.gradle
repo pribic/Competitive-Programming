@@ -1,0 +1,21 @@
+plugins {
+  id 'base'
+}
+
+task task1 {
+  doFirst {
+  println 'yeah man.'
+  }
+  doLast {
+  println 'hey man..' 
+}
+}
+task zip(type: Zip){
+  from 'src'
+} 
+
+
+task copy(type: Copy) {
+   from 'src' 
+   into  'dest'
+}

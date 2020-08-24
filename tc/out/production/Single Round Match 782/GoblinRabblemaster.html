@@ -1,0 +1,43 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+You are playing a game with Goblin Rabblemasters in Magic: the Gathering.
+</p>
+<p>
+You are going to play <b>T</b> turns of the game.
+In the beginning of each turn you will add one new Goblin Rabblemaster to your army.
+</p>
+<p>
+Goblin Rabblemaster is a creature with the following properties:
+</p>
+<ul>
+<li>It attacks each turn, <i>except for the turn it entered the game</i>.</li>
+<li>Whenever it attacks, it deals (2+G) damage, where G is the number of <i>other goblins of any kind</i> who attack that turn.</li>
+<li>Each turn (<i>including</i> the turn it entered the game), immediately before your goblins attack, Goblin Rabblemaster adds an ordinary Goblin to your army.</li>
+</ul>
+<p>
+An ordinary Goblin is a creature with the following properties:
+</p>
+<ul>
+<li>It attacks each turn, <i>including</i> the turn when it entered the game.</li>
+<li>Whenever it attacks, it deals 1 damage.</li>
+</ul>
+<p>
+Calculate and return the total amount of damage your goblins will deal during the game.
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>GoblinRabblemaster</td></tr><tr><td>Method:</td><td>totalDamage</td></tr><tr><td>Parameters:</td><td>int</td></tr><tr><td>Returns:</td><td>long</td></tr><tr><td>Method signature:</td><td>long totalDamage(int T)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>T</b> will be between 1 and 47,000, inclusive.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>1</pre></td></tr></table></td></tr><tr><td><pre>Returns: 1</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+Turn 1:
+You add a Goblin Rabblemaster. The Rabblemaster adds an ordinary Goblin. The Goblin attacks and deals 1 damage.
+</p>
+</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>3</pre></td></tr></table></td></tr><tr><td><pre>Returns: 33</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+Turn 1:
+You add a Goblin Rabblemaster. The Rabblemaster adds an ordinary Goblin. The Goblin attacks and deals 1 damage.
+</p>
+<p>
+Turn 2:
+You add a second Goblin Rabblemaster. Each Rabblemaster adds an ordinary Goblin. Three Goblins and the first Rabblemaster attack together. Each Goblin deals 1 damage, and the Rabblemaster deals (2+3) = 5 damage.
+</p>
+<p>
+Turn 3:
+You add a third Goblin Rabblemaster. Each Rabblemaster adds an ordinary Goblin. Six Goblins and two Rabblemasters attack. Each Rabblemaster sees 7 other attacking goblins and deals (2+7) = 9 damage.
+</p>
+<p>
+Total damage dealt each turn is 1, 8, and 24 for a grand total of 33 damage.
+</p></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>6</pre></td></tr></table></td></tr><tr><td><pre>Returns: 336</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>470</pre></td></tr></table></td></tr><tr><td><pre>Returns: 6177551220</pre></td></tr><tr><td><table><tr><td colspan="2">The answer for any valid test case is guaranteed to fit into a signed 64-bit integer variable. Watch out for integer overflow, variables with a smaller range of values are not sufficient.</td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>

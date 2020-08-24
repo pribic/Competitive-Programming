@@ -1,0 +1,53 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+Given is a String <b>w</b> that consists of uppercase English letters.
+Your task is to create a trivial word search puzzle: a square grid of letters that contains the given word <b>w</b> exactly once.
+</p>
+<p>
+The word <b>w</b> can appear in any of the 8 cardinal directions (horizontally, vertically, or diagonally).
+An occurrence of a word is a set of positions in the grid that lie in one of those directions and contain the letters of <b>w</b>, in order.
+In particular, if <b>w</b> is a palindrome (i.e., reads the same forwards and backwards), it can still have only one occurrence in the grid, even though that occurrence can be read in two different directions.
+</p>
+<p>
+Return any String[] with the following properties:
+</p>
+<ul>
+<li>It describes a square grid of uppercase English letters.</li>
+<li>Each letter in the grid appears somewhere in <b>w</b>.</li>
+<li>The side of the grid must be at most 20.</li>
+<li>The grid must contain exactly one occurrence of <b>w</b>.</li>
+</ul>
+<p>
+If no such grid exists, return an empty String[] instead.
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>TrivialWordSearch</td></tr><tr><td>Method:</td><td>construct</td></tr><tr><td>Parameters:</td><td>String</td></tr><tr><td>Returns:</td><td>String[]</td></tr><tr><td>Method signature:</td><td>String[] construct(String w)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>w</b> will contain between 1 and 10 characters, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each character in <b>w</b> will be an uppercase English letter ('A'-'Z').</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>&quot;DOG&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: {&quot;DGOODDO&quot;, &quot;DODGOGG&quot;, &quot;DGOODDD&quot;, &quot;GOOGDGO&quot;, &quot;GOGGOGD&quot;, &quot;DOOGDOO&quot;, &quot;OOGGOOD&quot; }</pre></td></tr><tr><td><table><tr><td colspan="2"><p>The returned grid:</p>
+<pre>
+DGOODDO
+DODGOGG
+DGOODDD
+GOOGDGO
+GOGGOGD
+DOOGDOO
+OOGGOOD
+</pre>
+<p>The only occurrence of DOG in this grid:</p>
+<pre>
+*******
+*******
+D******
+*O*****
+**G****
+*******
+*******
+</pre>
+</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>&quot;ABBA&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: {&quot;BABA&quot;, &quot;AABB&quot;, &quot;ABAA&quot;, &quot;ABAB&quot; }</pre></td></tr><tr><td><table><tr><td colspan="2">The only occurrence of ABBA is on the diagonal from the top right to the bottom left (or vice versa, as ABBA is a palindrome).</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>&quot;TOPCODER&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: 
+{&quot;TOPTOPTOPTOP&quot;,
+ &quot;TOPTORTOPTOP&quot;,
+ &quot;TOPTOETOPTOP&quot;,
+ &quot;TOPTODTOPTOP&quot;,
+ &quot;TOPTOOTOPTOP&quot;,
+ &quot;TOPTOCTOPTOP&quot;,
+ &quot;TOPTOPTOPTOP&quot;,
+ &quot;TOPTOOTOPTOP&quot;,
+ &quot;TOPTOTTOPTOP&quot;,
+ &quot;TOPTOPTOPTOP&quot;,
+ &quot;TOPTOPTOPOOP&quot;,
+ &quot;TOPTOPTOPTOP&quot; }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>&quot;XXXXX&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: { }</pre></td></tr><tr><td><table><tr><td colspan="2">There is no valid word search grid that would contain exactly one occurrence of XXXXX. As the grid must be a square and you can only use the letter X, there will be many different occurrences of XXXXX in that grid.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">4)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>&quot;E&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: {&quot;E&quot; }</pre></td></tr><tr><td><table><tr><td colspan="2">A word search puzzle doesn't get any more trivial than this.</td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>

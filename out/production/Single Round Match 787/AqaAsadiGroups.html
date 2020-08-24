@@ -1,0 +1,36 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+Aqa Asadi holds regular coding championships between his students.
+There are N students who want to take part in the next coding championship.
+All N students are sitting along one long desk in the computer lab.
+Aqa Asadi wants to divide the students into exactly <b>k</b> groups.
+Each group must be contiguous, so that the students in the group can talk to each other during the contest without disturbing the other groups.
+The groups should be as balanced as possible, as defined below.
+</p>
+<p>
+You are given the int[] <b>Skills</b> with N elements: for each student, in the order in which they are sitting, their skill in coding.
+The skill of a group is simply the sum of skills of all students it contains.
+Let S be the sum of all skills.
+Clearly, if we had <b>k</b> groups that are all equally good, the ideal skill of each group would be S / <b>k</b>.
+Thus, let's define the badness of a group as the square of the difference between the ideal skill of a group and its actual skill.
+I.e., if the actual skill of a group is G, its badness is (S / <b>k</b> - G)^2.
+Finally, the total badness of a particular division into groups is computed by adding together the badness for each group in the division.
+</p>
+<p>
+Calculate the smallest possible total badness. Return that value multiplied by <b>k</b>^2. (It can be shown that this value is always an integer.)
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>AqaAsadiGroups</td></tr><tr><td>Method:</td><td>minimumDifference</td></tr><tr><td>Parameters:</td><td>int[], int</td></tr><tr><td>Returns:</td><td>long</td></tr><tr><td>Method signature:</td><td>long minimumDifference(int[] Skills, int k)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>Skills</b> will contain between 1 and 500 elements, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>Skills</b> will be between 1 and 4000, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td><b>k</b> will be between 1 and 500, inclusive.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1, 2}</pre></td></tr><tr><td><pre>2</pre></td></tr></table></td></tr><tr><td><pre>Returns: 2</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+The optimal split of {1, 2} into two groups is to split it into {1} and {2}.
+</p>
+<p>
+The average skill of a group is S/<b>k</b> = 3/2. Thus, the individual groups have badness (3/2 - 1)^2 and (3/2 - 2)^2. The total badness is therefore 1/4 + 1/4 = 1/2, and we should return the value (1/2) * <b>k</b>^2 = (1/2)*4 = 2.
+</p></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1, 2}</pre></td></tr><tr><td><pre>1</pre></td></tr></table></td></tr><tr><td><pre>Returns: 0</pre></td></tr><tr><td><table><tr><td colspan="2">The only way of splitting {1, 2} into just one group is to leave {1, 2} as the only group. Its badness is zero.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1, 2, 3, 4}</pre></td></tr><tr><td><pre>2</pre></td></tr></table></td></tr><tr><td><pre>Returns: 8</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+One optimal split is into {1, 2, 3} and {4}. Each group has badness 1, the total badness is 2, and the correct return value is 2 * <b>k</b>^2 = 8.
+</p>
+<p>
+Note that the groups must be contiguous, so we cannot divide the input into {2, 3} and {1, 4}.
+</p></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1, 2}</pre></td></tr><tr><td><pre>5</pre></td></tr></table></td></tr><tr><td><pre>Returns: 80</pre></td></tr><tr><td><table><tr><td colspan="2"><p>
+One optimal split is into the following five groups: {1}, {}, {2}, {}, {}.
+Note that some groups must be empty, as <b>k</b> is greater than the number of students.
+</p>
+<p>
+The average skill of a group is S/<b>k</b> = 3/5. Thus, the individual groups have badness (3/5 - 1)^2, (3/5 - 0)^2, (3/5 - 2)^2, (3/5 - 0)^2, (3/5 - 0)^2. The total badness is therefore 16/5, and we should return the value (16/5) * <b>k</b>^2 = 16*5 = 80.
+</p></td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>

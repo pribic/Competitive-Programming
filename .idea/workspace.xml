@@ -1,0 +1,2187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84fe8482-5db9-4d4a-b3c2-23cbe8240495" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/homebrew-cask/Casks/varidesk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/homebrew-cask/Casks/varidesk.rb" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/codejam/.gradle/" />
+    <ignored path="$PROJECT_DIR$/codejam/build/" />
+    <ignored path="$PROJECT_DIR$/sudokusolver/.gradle/" />
+    <ignored path="$PROJECT_DIR$/sudokusolver/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/codejam">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/sudokusolver">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/round1/ProblemA1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2490#2491#0" expanded="true" />
+                <element signature="e#2984#2985#0" expanded="true" />
+                <element signature="e#3031#3032#0" expanded="true" />
+                <element signature="e#3973#3974#0" expanded="true" />
+                <element signature="e#4032#4033#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="22" column="23" lean-forward="true" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="19" column="24" lean-forward="true" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/TreeSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="423" column="18" selection-start-line="423" selection-start-column="13" selection-end-line="423" selection-end-column="18" />
+              <folding>
+                <element signature="e#5694#5695#0" expanded="true" />
+                <element signature="e#5739#5740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="430" column="12" selection-start-line="430" selection-start-column="12" selection-end-line="430" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/LongestArithmetic/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="17" column="23" lean-forward="true" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/HighBuildings/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/Toys/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CP" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>traverseCol</find>
+      <find>[[2,1],[3,1],[4,1],[1,5]]</find>
+      <find>nullsF</find>
+      <find>remove(</find>
+      <find>remove(in</find>
+      <find>print</find>
+      <find>system.out</find>
+      <find>[[1,0,0,0],[1,1,1,1],[1,0,0,0],[1,0,0,0]]</find>
+      <find>]</find>
+      <find>significant</find>
+      <find>floor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{</replace>
+      <replace>}</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/homebrew-cask" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r654/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r654/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r654/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/suffixarray/Step1.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/RecordBreaker/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/AlientPiano/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/LockedDoors/TestMainApplication21.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/LockedDoors/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/algoridhm/graph/DFS.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/basic/BinaryExponentiation.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem3/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/round1/ProblemA1.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemA.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemB.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemC.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemD.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/LongestArithmetic/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/Toys/Solution.java" />
+        <option value="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/HighBuildings/Solution.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="r658" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="r662" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="div3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="r653" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="r661" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="step1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="step1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="r93" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qualification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="round1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kickstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HighBuildings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LongestArithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Toys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src.main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="Single Round Match 787" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="Single Round Match 787" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="Single Round Match 787" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="SRM 787 DIV 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-tech" type="462c0819:PsiDirectoryNode" />
+              <item name="SRM 787 DIV 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="hashmap&#9;PSI&#9;JAVA://java.util.HashMap" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="Solution" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codeforce.edu.binarySearch.step1" />
+      <recent name="codeforce.educational.r93" />
+      <recent name="codeforce.edu.SegmentTree.course2.step1" />
+      <recent name="codeforce.div2.r662" />
+      <recent name="codeforce.div3.r661" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codejam/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ProblemA" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SRM 732 DIV 2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeforce.edu.binarySearch.step1.ProblemB" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeforce.edu.binarySearch.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeforce.edu.binarySearch.step1.ProblemC" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeforce.edu.binarySearch.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemD (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeforce.edu.binarySearch.step1.ProblemD" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codeforce.edu.binarySearch.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2020.round1E.HighBuildings.Solution" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kickstart.Y2020.round1E.HighBuildings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2020.round1E.LongestArithmetic.Solution" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kickstart.Y2020.round1E.LongestArithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ProblemD (1)" />
+        <item itemvalue="Application.ProblemC" />
+        <item itemvalue="Application.ProblemB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84fe8482-5db9-4d4a-b3c2-23cbe8240495" name="Default" comment="" />
+      <created>1522941573582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522941573582</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AqaAsadiPlaysTest_test4 - 2020.06.21 at 22h 40m 56s.xml">
+      <configuration name="AqaAsadiPlaysTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiPlaysTest_test4 - 2020.06.21 at 22h 41m 39s.xml">
+      <configuration name="AqaAsadiPlaysTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiPlaysTest_(1) - 2020.06.21 at 22h 44m 17s.xml">
+      <configuration name="AqaAsadiPlaysTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiPlaysTest_(1) - 2020.06.21 at 22h 49m 34s.xml">
+      <configuration name="AqaAsadiPlaysTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiGroupsTest - 2020.06.21 at 22h 51m 50s.xml">
+      <configuration name="AqaAsadiGroupsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiNamesTest - 2020.06.21 at 23h 18m 20s.xml">
+      <configuration name="AqaAsadiNamesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiNamesTest_test0 - 2020.06.21 at 23h 27m 53s.xml">
+      <configuration name="AqaAsadiNamesTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiNamesTest_test0 - 2020.06.21 at 23h 28m 58s.xml">
+      <configuration name="AqaAsadiNamesTest.test0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiPlaysTest - 2020.06.21 at 23h 31m 52s.xml">
+      <configuration name="AqaAsadiPlaysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AqaAsadiPlaysTest - 2020.06.21 at 23h 33m 04s.xml">
+      <configuration name="AqaAsadiPlaysTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974533" visible="true" weight="0.31088826" />
+      <window_info id="Structure" order="1" sideWeight="0.50254667" side_tool="true" weight="0.24722221" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.24171951" />
+      <window_info id="simpleUML" order="4" />
+      <window_info id="DB Browser" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41183162" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43356642" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3030303" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5151515" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992035" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35547787" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974533" visible="true" weight="0.31088826" />
+      <window_info id="Structure" order="1" sideWeight="0.50254667" side_tool="true" weight="0.24722221" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.24171951" />
+      <window_info id="simpleUML" order="4" />
+      <window_info id="DB Browser" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41183162" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23776224" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3030303" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5151515" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992035" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35547787" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3297568" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/DeckOfCards.java</url>
+          <line>6</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/test/CubeStackingGameTest.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/src/CubeStackingGame.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SRM 732 DIV 2/test/CubeStackingGameTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/Vestigum/Solution.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/Vestigum/Solution.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/parentingparenting/Solution.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/parentingparenting/Solution.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/parentingparenting/Solution.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="actityAssigned==null" language="JAVA" />
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/parentingparenting/Solution.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="ans==trace" language="JAVA" />
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="x==5 &amp;&amp; y == 0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="box==3" language="JAVA" />
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="c=='1' &amp;&amp; box==0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sudokusolver/src/main/java/Solution1.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Y2019/round1A/pylons/Solution.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Solution.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/patternmatching/Solution.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/patternmatching/Solution.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/pascal/Solution.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/pascal/Solution.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/dancing/Solution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/dancing/Solution.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/dancing/Solution.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/dancing/Solution.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/rount1A/dancing/Solution.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/test/PosNegDiceTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/PosNegDice.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/BouncingBall.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/CardboardBoxes.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/CardboardBoxes.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/CardboardBoxes.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="cnt == 0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/CardboardBoxes.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2020 TCO Algo/src/ThreeNeighbors.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2020 TCO Algo/src/ThreeNeighbors.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2020 TCO Algo/src/ThreeNeighbors.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/round1B/Problem1/Solution.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/round1B/Problem1/Solution.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/round1C/Problem2/Solution.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/round1C/Problem2/Solution.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/round1C/Problem2/Solution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/Q2020/abc.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/diff/DiffRunner.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/NumberOfFiboCalls.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 786/src/SmallestRegular.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 786/src/SmallestRegular.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem2/Solution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem2/Solution.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem2/Solution.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem3/Solution.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem3/Solution.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 783/src/hey.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r646/ProblemA.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r649/ProblemB.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/cses/IntroductoryProblmes/Repetitions.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/cses/IntroductoryProblmes/Permutations.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r651/ProblemC.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r651/ProblemC.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/leetcode/weeklycontest/r194/MakingFileNamesUnique.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/leetcode/weeklycontest/r194/MakingFileNamesUnique.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 787/src/AqaAsadiPlays.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Single Round Match 787/src/AqaAsadiPlays.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r652/ProblemC.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r652/ProblemC.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r652/ProblemC.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/leetcode/biweeklycontest/r29/Solution.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/leetcode/biweeklycontest/r29/Solution.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/leetcode/biweeklycontest/r29/Solution.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r653/ProblemA.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r654/ProblemB.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r654/ProblemD.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemB.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemC.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemD.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/ProblemD.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemC.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/LockedDoors/Solution.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1D/LockedDoors/Solution.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemC.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemA.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/Map.java</url>
+          <line>741</line>
+          <properties />
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemA.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemD.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Solution.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Solution.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemC.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemC.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemD.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemB.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemB.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemC.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemA.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/round1/ProblemA1.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/round1/ProblemA1.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="1 &lt;&lt; bitShift" language="JAVA" />
+        <watch expression="valueToInspect &amp; ( 1 &lt;&lt; bitShift)" language="JAVA" />
+        <watch expression="((valueToInspect &amp; (1 &lt;&lt; bitShift)) &gt;&gt; bitShift )" language="JAVA" />
+        <watch expression="valueToInspect" />
+        <watch expression="convertBooleanToInteger(294)" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="this.print();" language="JAVA" />
+        <watch expression="s[0]" language="JAVA" />
+        <watch expression="s[0] != d[j]" language="JAVA" />
+        <watch expression="adjacencyList.putIfAbsent(u , new ArrayList&lt;&gt;())" language="JAVA" />
+        <watch expression="s.charAt(i)" language="JAVA" />
+        <watch expression="n - 1 - i" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tc$CardboardBoxes.ic" NAME="CardboardBoxes Coverage Results" MODIFIED="1587040734514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>s.equals(&quot;4132&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r==4 &amp;&amp; c==1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r==1 &amp;&amp; c==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cnt == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c=='1' &amp;&amp; box==0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>box==3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x==5 &amp;&amp; y == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==5 &amp;&amp; j == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==2 &amp;&amp; j == 6</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i==2 &amp;&amp; j==4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>n - 1 - i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>adjacencyList.putIfAbsent(u , new ArrayList&lt;&gt;())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s[0] != d[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>d[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.print();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp[r][c][1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp[r][c][0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bestLen[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dp[r][j][1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>R.charAt(0) - 'A'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Q.charAt(0) - '0'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>R.charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sudoku[i][j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r655/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/algoridhm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="1061" column="18" selection-start-line="1061" selection-start-column="18" selection-end-line="1061" selection-end-column="18" />
+          <folding>
+            <element signature="e#43123#43124#0" expanded="true" />
+            <element signature="e#43187#43188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/algoridhm/graph/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/facebook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/basic/BinaryExponentiation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+          <folding>
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3073#3074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7348#7349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem3/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="515" column="25" selection-start-line="515" selection-start-column="25" selection-end-line="515" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/InvalidPropertiesFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/qualification/ProblemD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r653/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r662/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r658/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r661/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="818" column="27" selection-start-line="818" selection-start-column="16" selection-end-line="818" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2687#2688#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r93/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2020/round1/ProblemA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3031#3032#0" expanded="true" />
+            <element signature="e#3973#3974#0" expanded="true" />
+            <element signature="e#4032#4033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" column="23" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="24" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step1/ProblemD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="423" column="18" selection-start-line="423" selection-start-column="13" selection-end-line="423" selection-end-column="18" />
+          <folding>
+            <element signature="e#5694#5695#0" expanded="true" />
+            <element signature="e#5739#5740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk8u181-b13/Contents/Home/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="430" column="12" selection-start-line="430" selection-start-column="12" selection-end-line="430" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/LongestArithmetic/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17" column="23" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/Toys/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1E/HighBuildings/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19782394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
