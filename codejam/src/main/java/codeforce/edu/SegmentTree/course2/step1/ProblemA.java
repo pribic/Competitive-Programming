@@ -62,11 +62,11 @@ public class ProblemA {
       add(l, r, v, 0, 0, size);
     }
 
-    private void add(int l, int r, int v, int x, int lx, int rx) {
+    private void add(int l, int r, int v, int pos, int lx, int rx) {
       //entirely inside
       if (lx >= l && rx <= r) {
         //combining two operations on a node
-        sums[x] += v;
+        sums[pos] += v;
         return;
       }
 
@@ -76,24 +76,24 @@ public class ProblemA {
 
       //otherwise go to both children
       int mid = (lx + rx) / 2;
-      add(l, r, v, 2 * x + 1, lx, mid);
-      add(l, r, v, 2 * x + 2, mid, rx);
+      add(l, r, v, 2 * pos + 1, lx, mid);
+      add(l, r, v, 2 * pos + 2, mid, rx);
     }
 
     long get(int i) {
       return get(i, 0, 0, size);
     }
 
-    private long get(int i, int x, int lx, int rx) {
+    private long get(int i, int pos, int lx, int rx) {
       if (rx - lx == 1)
-        return sums[x];
+        return sums[pos];
       int mid = (lx + rx) / 2;
       long val;
       if (i < mid)
-        val = get(i, 2 * x + 1, lx, mid);
+        val = get(i, 2 * pos + 1, lx, mid);
       else
-        val = get(i, 2 * x + 2, mid, rx);
-      return val + sums[x];
+        val = get(i, 2 * pos + 2, mid, rx);
+      return val + sums[pos];
     }
   }
 }

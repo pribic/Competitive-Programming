@@ -1,120 +1,108 @@
 package Q2020.latinmatrix;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
 
+/**
+ * @author pribic (Priyank Doshi)
+ * @since 27/02/21
+ */
 public class Solution {
+
   public static void main(String[] args) {
-    
-    Scanner sc = new Scanner(System.in);
-    int t = sc.nextInt();
-    sol(sc, t);
-    /*for(int n = 2; n <=5; n++) {
-      for(int k = n; k <= n*n; k++) {
-        sol(n , k);
-      }
-    }*/
-    sc.close();
-    
-  }
-
-  private static void sol(Scanner sc, int t) {
-    for(int tt=1;tt<=t;tt++) {
-      int n = sc.nextInt();
-      int trace = sc.nextInt();
-      int[][] matrix = new int[n][n];
-      try {
-        List<Integer> abc = new ArrayList<>();
-        for(int i = 1; i <= n; i++)
-          abc.add(i);
-        findLatin(matrix,  0, trace);
-        System.out.println("Case #" + tt + ": IMPOSSIBLE");
-      } catch (Exception e) {
-        if(e.getMessage().equals("0")) {
-          System.out.println("Case #" + tt + ": POSSIBLE");
-          printMatrix(matrix, trace);
-        }
-        else if(e.getMessage().equals("1"))
-        {
-          System.out.println("Case #" + tt + ": POSSIBLE");
-          mirrorMatrix(matrix);
-          printMatrix(matrix, trace);
+    try (Scanner sc = new Scanner(System.in)) {
+      int T = sc.nextInt();
+      for (int tt = 1; tt <= T; tt++) {
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        System.out.print("Case #" + tt + ": ");
+        if (k < n || k > n * n) {
+          System.out.println("IMPOSSIBLE");
         } else {
-          System.out.println("Case #" + tt + ": IMPOSSIBLE");
+          int a, b = 0, c = 0;
+          boolean found = false;
+          outer:
+          for (a = 0; a <= n; a++) {
+            for (b = 0; b <= n; b++) {
+              for (c = 0; c <= n; c++) {
+                if ((a + (b == 0 ? 0 : 1) + c == n) && a + b + c * n == k) {
+                  found = true;
+                  break outer;
+                }
+              }
+            }
+          }
+          if (!found) {
+            System.out.println("IMPOSSIBLE");
+          } else {
+            int[][] validLatin = new int[n][n];
+
+            for (int i = 0; i < n; i++) {
+              int num = 1;
+              for (int j = i; j < n + i; j++) validLatin[i][j % n] = num++;
+            }
+            int[] diagonal = new int[n];
+            for (int i = 0; i < a; i++) diagonal[i] = 1; //first a 1s
+            if(b > 0)
+              diagonal[a] = b; // 1 b
+            for (int i = 0; i < c; i++) diagonal[n - 1 - i] = n; // last c ns
+            boolean isValid = true;
+            for (int i = 0; i < n; i++) {
+              if(!fixMe(i, diagonal, validLatin)) {
+                isValid = false;
+                break;
+              }
+            }
+            if(!isValid) {
+              System.out.println("IMPOSSIBLE");
+            } else {
+              System.out.println("POSSIBLE");
+              printMatrix(validLatin);
+            }
+          }
         }
       }
-
     }
   }
 
-  private static void mirrorMatrix(int[][] matrix) {
-    for(int i = 0; i < matrix.length; i++) {
-      for(int j=0; j < matrix.length/2; j++) {
-        int temp = matrix[i][j];
-        matrix[i][j] = matrix[i][matrix.length -1 - j];
-        matrix[i][matrix.length -1 - j] = temp;
+  private static boolean fixMe(int index, int[] diagonal, int[][] validLatin) {
+    if (validLatin[index][index] != diagonal[index]) {
+      //find in same row
+      int expected = diagonal[index];
+      int ans = -1;
+      for (int col = index + 1; col < validLatin.length; col++) {
+        if (validLatin[index][col] == expected) ans = col;
+      }
+
+      //find in same col
+      if (ans != -1) {
+        //swap index with ans col
+        for (int i = 0; i < validLatin.length; i++) {
+          int t = validLatin[i][index];
+          validLatin[i][index] = validLatin[i][ans];
+          validLatin[i][ans] = t;
+        }
+
+      } else {
+        for (int row = index + 1; row < validLatin.length; row++) {
+          if (validLatin[row][index] == expected) ans = row;
+        }
+        if(ans == -1)
+          return false;
+        for (int i = 0; i < validLatin.length; i++) {
+          int t = validLatin[index][i];
+          validLatin[index][i] = validLatin[ans][i];
+          validLatin[ans][i] = t;
+        }
       }
     }
+    return true;
   }
 
-  private static void findLatin(int[][] matrix, int position, int trace) {
-      if(position == matrix.length * matrix.length)
-      {
-        int res = verifyTrace(matrix, trace);
-        if(res == 0 || res == 1) {
-          throw new RuntimeException(res + "");
-        }
-        return;
-      }
-      else {
-        int curPosX = position/matrix.length;
-        int curPosY = position%matrix.length;
-        List<Integer> validValues = new ArrayList<>(matrix.length);
-        Set<Integer> presentValues = new HashSet<>(); 
-        for(int i = 0; i < curPosX; i++) {
-          presentValues.add(matrix[i][curPosY]);
-        }
-        for(int j = 0; j < curPosY; j++) {
-          presentValues.add(matrix[curPosX][j]);
-        }
-        for(int i = 1; i <= matrix.length; i++) {
-          if(!presentValues.contains(i))
-            validValues.add(i);
-        }
-        for(Integer  v : validValues) {
-          matrix[curPosX][curPosY] = v;
-          findLatin(matrix, position + 1, trace);
-          matrix[curPosX][curPosY] = 0;
-        }
-      }
-  }
-
-
-  private static void printMatrix(int[][] matrix, int trace) {
-    for(int i = 0; i < matrix.length; i++) {
-      for (int j = 0; j < matrix.length; j++) {
-        System.out.print(matrix[i][j] + " ");
-      }
+  private static void printMatrix(int[][] matrix) {
+    for (int[] row : matrix) {
+      for (int col : row)
+        System.out.print(col + " ");
       System.out.println();
     }
   }
-
-  static int verifyTrace(int[][] matrix, int trace) {
-    int ans = 0;
-    for(int i=0; i < matrix.length; i++) {
-      ans += matrix[i][i];
-    }
-    if(ans == trace)
-      return 0;
-    ans = 0;
-    for(int i=0; i < matrix.length; i++) {
-      ans += matrix[i][matrix.length - 1 - i];
-    }
-    return ans == trace ? 1 : 2;
-  }
-
 }
-

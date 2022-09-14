@@ -1,6 +1,8 @@
 package kickstart.Y2020.round1C.Problem2;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -13,58 +15,78 @@ public class Solution {
     Scanner sc = new Scanner(System.in);
     int T = sc.nextInt();
     for (int tt = 1; tt <= T; tt++) {
+      System.out.printf("Case #%d: ", tt);
       int R = sc.nextInt();
       int C = sc.nextInt();
-      char[][] wall = new char[R][C];
-      Set<Integer> inputs = new HashSet<>();
-      String ans = "";
+      int[][] wall = new int[R][C];
+      // letters from A to Z
+      int[] in = new int[26];
+      int[] out = new int[26];
+      Set<Integer>[] graph = new HashSet[26];
+
+      int presentCharCnt = 0;
       for (int i = 0; i < R; i++) {
-        String s = sc.next();
-        wall[i] = s.toCharArray();
-        for(char c : s.toCharArray()) {
-          inputs.add(c - 'A');
-        }
-      }
-      int[][] dependencyGraph = new int[26][26];
-      for (int j = 0; j < C; j++) {
-        for (int i = 0; i < R - 1; i++) {
-          if (wall[i][j] != wall[i + 1][j]) {
-            char independent = wall[i + 1][j];
-            char dependent = wall[i][j];
-            dependencyGraph[independent - 'A'][dependent - 'A'] = 1;
+        char[] curRow = sc.next().toCharArray();
+        for (int j = 0; j < C; j++) {
+          int cur = curRow[j] - 'A';
+          wall[i][j] = cur;
+          if (graph[cur] == null) {
+            presentCharCnt++;
+            graph[cur] = new HashSet<>();
           }
         }
       }
-      Set<Integer> S = beginners(dependencyGraph, inputs);
-      Set<Integer> L = new LinkedHashSet<>();
-      while (!S.isEmpty()) {
-        Integer node = S.iterator().next();
-        S.remove(node);
-        L.add(node);
-        Set<Integer> edgeFromNode = findEdgeFromNode(dependencyGraph, node);
-        for(Integer edge : edgeFromNode) {
-          dependencyGraph[node][edge] = 0;
-          if(incomingEdges(dependencyGraph, edge) == 0) {
-            S.add(edge);
+      for (int i = 1; i < R; i++) {
+        for (int j = 0; j < C; j++) {
+          int u = wall[i][j];
+          int v = wall[i - 1][j];
+          if (u != v && graph[u].add(v)) {
+            out[u]++;
+            in[v]++;
           }
         }
       }
-      if(graphHasEdges(dependencyGraph)) {
-        ans = "-1";
-      } else {
-        for(Integer integer : L) 
-          ans = ans + (char)(integer + 'A');
+      ArrayDeque<Integer> nodes = new ArrayDeque<>();
+      //start with nodes having in degree = 0
+      for (int i = 0; i < in.length; i++) {
+        if (in[i] == 0 && graph[i] != null)
+          nodes.add(i);
       }
-      System.out.println(String.format("Case #%d: %s", tt, ans));
+      StringBuilder dependency = new StringBuilder();
+      presentCharCnt -= nodes.size();
+      while (!nodes.isEmpty()) {
+        int cur = nodes.pop();
+        dependency.append((char) (cur + 'A'));
+        // remove all the edges going out from cur.
+        for (int v : graph[cur]) {
+          //remove this edge, 
+          out[cur]--;
+          in[v]--;
+          if (in[v] == 0) {
+            nodes.add(v);
+            presentCharCnt--;
+          }
+        }
+      }
+      System.out.println(presentCharCnt == 0 ? dependency.toString() : -1);
     }
 
     sc.close();
   }
+/*
+learnings:
+if we use adjacency list, keep in mind to not add same edge twice, hence use set if needed
+avoid self loops, 
+sometimes for building graph, if we are not sure that same edge can come again or not, then its better to 
+fill in and out degree later once edges are set up correctly
 
+ */
+  
+  
   private static boolean graphHasEdges(int[][] dependencyGraph) {
-    for(int i = 0; i < dependencyGraph.length; i++) {
-      for(int j = 0; j < dependencyGraph[i].length; j++)
-        if(dependencyGraph[i][j] == 1)
+    for (int i = 0; i < dependencyGraph.length; i++) {
+      for (int j = 0; j < dependencyGraph[i].length; j++)
+        if (dependencyGraph[i][j] == 1)
           return true;
     }
     return false;
@@ -72,8 +94,8 @@ public class Solution {
 
   private static int incomingEdges(int[][] dependencyGraph, Integer edge) {
     Set<Integer> ans = new HashSet<>();
-    for(int i = 0; i < 26; i++) {
-      if(dependencyGraph[i][edge] == 1)
+    for (int i = 0; i < 26; i++) {
+      if (dependencyGraph[i][edge] == 1)
         ans.add(i);
     }
     return ans.size();
@@ -81,8 +103,8 @@ public class Solution {
 
   private static Set<Integer> findEdgeFromNode(int[][] dependencyGraph, Integer node) {
     Set<Integer> ans = new HashSet<>();
-    for(int i = 0; i < 26; i++) {
-      if(dependencyGraph[node][i] == 1)
+    for (int i = 0; i < 26; i++) {
+      if (dependencyGraph[node][i] == 1)
         ans.add(i);
     }
     return ans;
@@ -93,11 +115,11 @@ public class Solution {
     for (int j = 0; j < dependencyGraph[0].length; j++) {
       int sum = 0;
       for (int i = 0; i < dependencyGraph.length; i++) {
-        if(isPartOfInput(inputs, j, i))   
+        if (isPartOfInput(inputs, j, i))
           sum += dependencyGraph[i][j];
       }
-      if(sum == 0) {
-        if(inputs.contains(j))
+      if (sum == 0) {
+        if (inputs.contains(j))
           ans.add(j);
       }
     }
