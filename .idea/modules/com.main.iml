@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="com:main" external.linked.project.path="$MODULE_DIR$/../../codejam" external.root.project.path="$MODULE_DIR$/../../codejam" external.system.id="GRADLE" external.system.module.group="codejam" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../sudokusolver" rootProjectPath="$MODULE_DIR$/../../sudokusolver" />
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../codejam/build/classes/java/main" />
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../codejam/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../codejam/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../codejam/src/main/java" isTestSource="false" />

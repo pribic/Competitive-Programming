@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/codejam" />
         <option name="modules">
@@ -10,9 +13,10 @@
             <option value="$PROJECT_DIR$/codejam" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/sudokusolver" />
         <option name="modules">
@@ -20,7 +24,6 @@
             <option value="$PROJECT_DIR$/sudokusolver" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

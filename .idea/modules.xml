@@ -4,15 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2020 TCO Algo/2020 TCO Algo.iml" filepath="$PROJECT_DIR$/2020 TCO Algo/2020 TCO Algo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice Contest/Practice Contest.iml" filepath="$PROJECT_DIR$/Practice Contest/Practice Contest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 785 DIV 2/SRM 785 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 785 DIV 2/SRM 785 DIV 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 786 DIV 2/SRM 786 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 786 DIV 2/SRM 786 DIV 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SRM 787 DIV 2/SRM 787 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 787 DIV 2/SRM 787 DIV 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Single Round Match 783/Single Round Match 783.iml" filepath="$PROJECT_DIR$/Single Round Match 783/Single Round Match 783.iml" />
       <module fileurl="file://$PROJECT_DIR$/Single Round Match 785/Single Round Match 785.iml" filepath="$PROJECT_DIR$/Single Round Match 785/Single Round Match 785.iml" />
       <module fileurl="file://$PROJECT_DIR$/Single Round Match 786/Single Round Match 786.iml" filepath="$PROJECT_DIR$/Single Round Match 786/Single Round Match 786.iml" />
       <module fileurl="file://$PROJECT_DIR$/Single Round Match 787/Single Round Match 787.iml" filepath="$PROJECT_DIR$/Single Round Match 787/Single Round Match 787.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.iml" filepath="$PROJECT_DIR$/.idea/modules/com.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sudokusolver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sudokusolver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sudokusolver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sudokusolver.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudokusolver.iml" filepath="$PROJECT_DIR$/.idea/modules/sudokusolver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudokusolver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sudokusolver.main.iml" />
