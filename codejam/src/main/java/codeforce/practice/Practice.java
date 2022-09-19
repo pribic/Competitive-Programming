@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Objects;
@@ -18,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
-
+import java.util.TreeSet;
 
 
 /**
@@ -36,57 +37,82 @@ public class Practice {
   private static int oneE5 = (int) 1e5;
   private static int oneE9 = (int) 1e9;
   private static final long BIG = 2_000_000_010L;
-  private static int[] dx = {-1, -1, 1, 1};
-  private static int[] dy = {-1, 1, 1, -1};
+  private static int[] dx = {-1, 0, 1, 0};
+  private static int[] dy = {0, 1, 0, -1};
+  static ArrayList<Integer>[] al;
+  static boolean valid;
+  static List<Integer> op;
 
   public static void main(String[] args) {
     prebuild();
-
     try (PrintWriter out = new PrintWriter(System.out)) {
-      int T = sc.nextInt();
+      int T = 1;//sc.nextInt();
       for (int tt = 1; tt <= T; tt++) {
         int n = sc.nextInt();
-        int c = sc.nextInt();
-        int q = sc.nextInt();
-        String baseStr = sc.next();
-        int[] opLen = new int[c];
-        List<int[]> queries = new ArrayList<>();
-        queries.add(new int[]{0, baseStr.length() - 1});
-        for (int i = 0; i < c; i++) {
-          int l = sc.nextInt();
-          int r = sc.nextInt();
-          opLen[i] = r - l + 1;
-          queries.add(new int[]{l - 1, r - 1});
+        al = new ArrayList[n];
+        valid = true;
+        op = new ArrayList<>();
+        for (int i = 0; i < al.length; i++) {
+          al[i] = new ArrayList<>();
         }
-        for (int i = 0; i < q; i++) {
-          int k = sc.nextInt() - 1;
-          char ch = findKthCharacter(baseStr, k, queries);
-          System.out.println(ch);
+        for (int i = 0; i < n - 1; i++) {
+          int u = sc.nextInt() - 1;
+          int v = sc.nextInt() - 1;
+          al[u].add(v);
+          al[v].add(u);
         }
+        int[] original = new int[n];
+        for (int i = 0; i < n; i++) {
+          original[i] = sc.nextInt();
+        }
+        int[] goal = new int[n];
+        for (int i = 0; i < n; i++) {
+          goal[i] = sc.nextInt();
+        }
+        dfs(0, -1, 0, 0, 0, original, goal);
+        System.out.println(op.size());
+        StringBuilder sb = new StringBuilder();
+        for (int ll : op)
+          sb.append(ll + 1).append("\n");
+        System.out.println(sb);
       }
+
     }
   }
+
+  private static void dfs(int node, int parent, int level, int cntParent, int cntGrandParent, int[] original, int[] goal) {
+    //when we are at leaf node, they shall match
+    if ((original[node] + (cntGrandParent % 2)) % 2 == goal[node]) {
+      // we are good , go to children
+      for (int v : al[node])
+        if (v != parent)
+          dfs(v, node, level + 1, cntGrandParent, cntParent, original, goal);
+    } else {
+      op.add(node);
+      for (int v : al[node])
+        if (v != parent)
+          dfs(v, node, level + 1, cntGrandParent + 1, cntParent, original, goal);
+    }
+  }
+
   /*
+  op 4 
+0 1 0 0 1 1 1 1 1 1 0 0 0 1 1
+
+1 1 1 1 0 0 1 1 0 1 0 0 1 1 0
 
    */
+  static class Queries {
+    int queryId;
+    int idx;
+    int k;
 
-
-  private static char findKthCharacter(String baseStr, int k, List<int[]> queries) {
-    if (k < baseStr.length())
-      return baseStr.charAt(k);
-    long curLen = baseStr.length();
-    for (int i = 1; i < queries.size(); i++) {
-      //see if k falls between this query range
-      int curQLen = queries.get(i)[1] - queries.get(i)[0] + 1; // 5..10
-      if (k > curLen && k <= curLen + curQLen) {
-        //k falls under this query
-
-      }
-      curLen += curQLen;
+    public Queries(int queryId, int idx, int k) {
+      this.queryId = queryId;
+      this.idx = idx;
+      this.k = k;
     }
-    return 'a';
   }
-
 
   private static void reverse(long[] arr) {
     for (int l = 0, r = arr.length - 1; l < r; l++, r--) {
@@ -108,8 +134,9 @@ public class Practice {
     return !(u1 <= v2 && v2 <= v1);
   }
 
-  private static boolean inside(int u1, int v1, int u2) {
-    return u1 < u2 && u2 < v1;
+  //[l, r]
+  private static boolean inside(int l, int r, int x) {
+    return l <= x && x <= r;
   }
 
   abstract static class A {

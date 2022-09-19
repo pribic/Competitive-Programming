@@ -5,1077 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84fe8482-5db9-4d4a-b3c2-23cbe8240495" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/CPUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/DivideThePlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/FlattenIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/MainC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/SolutionSlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/MedianSort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/MoonsAndUmbrella/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/ReverseEngineering/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/Reversort/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/round1B/Subtransmutation/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/round1C/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/round1C/a/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/round1C/b/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2021/round2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/Sieve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/FenwickTree/FenwickTreeBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/Maths/MathUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/Maths/MathUtilRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/Maths/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/Template/SegmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/Trie/TrieBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/string/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/string/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/string/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/algoridhm/tree/BalanceBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r172/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r176/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r179/GotoJail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r179/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r179/PluralForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r191/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r191/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r198/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/beginnercontest/r198/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/dp/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/dp/S_Digit_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/practice/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/atcoder/practice/abc195_f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JAN21C/BILLRD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JAN21C/DECODEIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JAN21C/DIVTHREE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JAN21C/FAIRELCT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JAN21C/WIPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JYLY21C/EITA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/JYLY21C/XXOORR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/codevita20/CODVCAPROOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START15C/CARRYGOLD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START15C/DIVEO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START15C/MINSZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START15C/NPAIRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START15C/SUBTASK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START20B/BRTXORS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START20B/STBARR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START20B/VKMPAIRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/contest/div3/START20B/WRDVLS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/DEC21B/LISTLIST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/DEC21B/VANDH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/CHEAPFUEL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/EQUALCOIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/HILLSEQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/MAKEPAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/MAXBRIDGE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/WLDRPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/longC/NOV21/XOREQN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/AERTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/ALPDIFF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/ARRQUERY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/CHRL4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/CLLEXO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/DIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/DIVCLASS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/DLTNODE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/FIFACT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/FIXPTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/GCDFUN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/ICECREM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/INOI1502.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/KCHAR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/MATBEAUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/PENS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/PERCAPTA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/REVERSE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/SHUFGRID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/SNSOCIAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/SPOJDISQUERY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/SPOJMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/TREEUGH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/VRTCVR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/XORSUB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/practic/ZCO14002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/qualifiers/LUCKYNUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/qualifiers/MAXDISTKT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/qualifiers/MINDIFF1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/qualifiers/TESTSERIES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1A/BINFLIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1A/DANCEMOVES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1A/EQBEAUTY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1A/MINLCM1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1A/RRR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1B/HLPNISHANT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1B/INSIDER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1B/LARGESTLADDU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/snackdown/y2021/round1B/QPLACE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/CC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/CCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codechef/virtualContest/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/LATOKEN/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1300/A_YoungPhysicist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1300/practiceunder1300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1400/A_ArrivaloftheGeneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1400/A_Sereja_and_Bottles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1400/B_LittleDimaandEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/a20j/under1600/ARewards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/aprilfool/a2021/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/APrintRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/BPrintfrom1toN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/CPrintfromNto1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/DPrintDigitsusingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/EBaseConverssion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/FPrintEvenIndices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/GPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/HInvertedPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/ICountVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/JFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/KMaxNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/LSummation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/MSuffixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/NSumofaMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/assiut/recursion/OFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/coderam/r2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/coderam/r2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/company/graknforces2020/A_CircleColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/company/graknforces2020/C_DiscreteAcceleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/company/r2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge31/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge31/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge31/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge34/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge34/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge34/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge35/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/contestat8/challenge35/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div1/r614/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/Autumn2021/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/Autumn2021/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/Autumn2021/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/Autumn2021/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/summer2021/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/summer2021/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/summer2021/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/deltix/summer2021/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r165/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r165/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r291/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r419/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r648/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r670/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r671/DigitGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r671/Killjoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r671/SagesBirthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r671/Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r672/B_RockAndLever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r672/C_PokemonArmy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r672/CubesSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r672/D_RescueNibel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r678/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r678/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r678/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r680/A_ArrayRearrangment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r680/C_Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r681/A_KidsSeating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r681/B_SavingtheCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r682/B_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r683/A_AddCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r683/B_NumbersBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r683/C_Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r684/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r684/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r685/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r685/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r685/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r688/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r688/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r688/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r689/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r689/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r689/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r691/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r691/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r694/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r694/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r694/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r695/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r695/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r696/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r696/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r696/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r698/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r698/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r699/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r699/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r699/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r700/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r700/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r700/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r701/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r701/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r701/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r703/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r703/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r703/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r704/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r704/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r705/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r705/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r711/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r711/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r711/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r711/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r712/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r712/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r712/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r714/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r714/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r714/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r715/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r715/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r715/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r716/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r716/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r717/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r717/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r717/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r718/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r718/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r718/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r718/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r720/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r721/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r721/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r721/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r722/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r722/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r722/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r723/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r723/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r723/C2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r723/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r724/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r724/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r724/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r724/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r726/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r726/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r726/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r727/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r727/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r727/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r727/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r728/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r728/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r729/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r729/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r729/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r730/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r730/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r730/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r730/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r737/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r737/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r737/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r740/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r740/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r740/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r741/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r741/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r741/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r741/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r743/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r743/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r743/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r743/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r745/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r745/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r746/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r746/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r746/F1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r747/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r747/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r747/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r747/E1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r750/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r750/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r751/ATwo_Subsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r751/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r751/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r751/DFrogTraveler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r754/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r755/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r755/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r755/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r758/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r758/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r758/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r759/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r759/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r759/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r761/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r761/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r761/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r763/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r763/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r767/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r767/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r767/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r768/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r768/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r783/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r783/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r783/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r785/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r785/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r785/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r788/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r788/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r788/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r789/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r789/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r791/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r791/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r791/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r795/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r795/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r795/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r795/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r798/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r798/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r802/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r802/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r802/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r802/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r804/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r804/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r812/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r812/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r812/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r813/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r813/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r813/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r814/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r814/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r815/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r819/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r819/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/r819/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/rharbour/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/rharbour/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/rharbour/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div2/rharbour/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r674/A_FloorNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r674/B_SymmetricMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r674/C_IncreaseAndCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r674/STL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r686/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r686/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r686/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r686/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r690/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r690/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r690/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r690/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r693/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r693/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r693/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r693/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r697/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r697/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r697/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r697/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r702/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r702/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r702/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r702/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r702/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r710/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r710/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r710/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r710/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r713/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r719/F1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r725/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r725/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r725/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r725/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r725/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r731/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r731/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r731/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r731/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r731/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/B2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r734/D2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/EarliestUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/F1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r739/F2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/E1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r744/E2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/D2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r748/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/Java7QuicksortKiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/Java7QuicksortKiller_backup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/dalexAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/p1607_A_Linear_Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/p1607_B_Odd_Grasshopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/p1607_C_Minimum_Extraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/p1607_D_Blue_Red_Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r753/testDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r756/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r756/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r756/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r756/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r756/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r760/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r760/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r760/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r760/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r762/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r764/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r764/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r764/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r764/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r764/G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r765/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r765/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r765/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r780/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r780/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r780/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r786/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r797/G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r820/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r820/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r820/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/H1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r790/H2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r817/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/div4/r874/H.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/DSU/step1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/DSU/step1/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/DSU/step1/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/DSU/step1/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step2/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step3/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step3/B_Inversions_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step3/CNestedSegments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step3/DIntersectingSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step3/EAdditionToSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step4/ASign_alternation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step4/B_Cryptography.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step4/C_Number_of_Inversions_on_Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step4/D_Number_of_Different_on_Segment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step2/ChildrenHoliday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step2/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step2/PackingRectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step2/VeryEasyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step3/BSplittingAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step3/CCowsInStalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step3/GetTogether.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step5/A/B_MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step5/A/C_KthSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/binarySearch/step5/A/KthNumberintheUnionofSegments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/digitdp/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/suffixarray/step1/A_Suffix_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r100/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r100/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r102/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r102/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r102/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r103/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r103/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r105/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r105/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r105/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r106/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r106/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r106/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r107/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r107/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r107/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r107/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r108/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r108/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r108/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r108/Coriginal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r108/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r109/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r109/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r109/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r109/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r110/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r110/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r110/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r110/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r111/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r111/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r111/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r112/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r114/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r114/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r114/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r114/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r117/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r117/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r117/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r118/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r118/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r118/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r118/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r118/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r119/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r119/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r119/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r119/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r120/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r120/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r120/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r121/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r121/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r121/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r126/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r126/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r126/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r127/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r127/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r127/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r129/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r129/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r129/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r129/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r129/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r130/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r130/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r130/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r130/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r133/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r133/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r133/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r133/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r135/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r135/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r135/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r135/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r94/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r94/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r94/ProblemC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r94/ProblemD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r95/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r95/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r95/ProblemC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r96/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r96/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r96/ProblemC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r96/ProblemD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r97/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r98/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r98/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r98/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r99/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r99/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r99/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/educational/r99/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/r14/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/r14/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/r14/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/r14/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r11/A_AvoidingZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r11/B_ChessCheater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r12/A_AvoidTrygub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r12/B_BallsofSteel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r12/C1_ErrichTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2020/r12/D_RatingCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r1/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r1/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r1/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r15/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r15/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r15/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r15/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r16/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r16/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r16/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r16/D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r16/D2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r17/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r17/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r17/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r17/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r18/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r18/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r18/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2021/r18/template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/globalround/y2022/r20/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/goodbye2021/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/goodbye2021/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/goodbye2021/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/goodbye2021/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/gym/p341298/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/gym/p341298/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/hello2020/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/hello2022/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/hello2022/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/hello2022/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/p1000/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/p800/HittheLottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/p800/Imboredwithlife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/p800/SummerCamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/p800/TrickyAlchemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/ANoldbachproblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/DCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/D_Magic_Gems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/D_Secret_Passwords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/D_Yaroslav_and_Divisors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/EqualizingByDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/RoomOfTheCaptain_v7_RE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/TriePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/aaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/aaaaaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/contest8_40_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1180_A_Alex_and_a_Rhombus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1195C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1196F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1200_E_Compress_Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1215_E_Marbles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1294C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1323_A_Even_Subset_Sum_Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1326_D2_Prefix_Suffix_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1327E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1354D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1360D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1366A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1400E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1401C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1419D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1426C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1428B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1458A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1521B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1537_E1_Erase_and_Extend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1546A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p1609_William_The_Oblivious.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p165_E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p180_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p20_C_Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p22E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p230B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p245H.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p315_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p427C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p429DDestiny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p432_D_Prefixes_and_Suffixes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p459D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p471_D_MUH_and_Cube_Walls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p519C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p582D2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p681_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p702_A_Maximum_Increase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p7C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p817E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p846F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p894_A_QAQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/p910_A_The_Way_to_Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/pDPowerfulArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r3/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r3/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/unacadamy/r3/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/special/goodby2020/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/special/goodby2020/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/special/goodby2020/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/technocup/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/technocup/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/technocup/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/vk/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/vk/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/vk/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/vk/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/A/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/B/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2021/rount3/BuildAPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/ThreeDprinting/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/d1000000/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/punchcard/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1A/doubleOrOneThing/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1A/equalSum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1A/weightlifting/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1B/ControlledInflation/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1B/PancakeDeque/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1C/LetterBox/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/codejam/Y2022/round1C/squary/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/RangeQueries/RangeUpdatesAndSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/RangeQueries/StaticRangeSumQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/advancetechniques/MeetInTheMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/advancetechniques/SumOfFourValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/dp/DiceCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/graph/FlightRoutesCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/graph/ShortestRoutes1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/mathematics/CommonDivisors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/mathematics/CountingCoprimePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/mathematics/CountingDivisors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/cses/tree/DistinctColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/qualification/C1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/qualification/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/qualification/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round1/FT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round1/ProblemA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round1/ProblemA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round1/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round2/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2021/round2/ProblemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemB2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/qualification/ProblemD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/round1/ProblemA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/round1/ProblemA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackercup/Y2022/round1/ProblemB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackerearth/practice/ComponentsOfGraphAirBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackerearth/practice/GCDOnDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackerearth/practice/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackerearth/practice/gcdStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/hackerrank/practice/VampireDiaries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2019/round1G/Shifts/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1A/Bundling/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1A/Plates/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1F/MetalHarvest/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1F/Problem1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1G/CombinationLock/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1G/CompetitiveSubmissions/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1G/MaximumCoins/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1H/problemA/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1H/problemB/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1H/problemC/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1H/problemD/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1A/KGoodnessString/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1A/KGoodnessString/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1A/LShapedPlots/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1A/RabbitHouse/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1B/IncreasingSubstring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1B/LongestProgression/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1B/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1B/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1C/AlienGenerator/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1C/SmallerStrings/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1D/ArithmaticSquare/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1D/CuttingIntervals/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1D/PrimesAndQueries/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1D/PrimesAndQueries/SolutionSqrtDecomposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1D/finalExam/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1E/IncreasingSeqCardGame/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1E/PalindromicCrossWord/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1E/PalindromicCrossWord/SolutionInCompetetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1E/ShuffledAnagram/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1F/Festival/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1F/StarStrapper/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1F/TrashBins/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1G/BananaBunches/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1G/DogsAndCats/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1G/StayingHydrated/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1H/DependentEvents/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1H/Painter/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1H/SillySubstitutions/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2021/round1H/TransformTheString/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/practice3/RecordBreaker/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/practice3/WiggleWalk/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1E/ColoringGame/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1E/MatchingPalindrome/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1E/StudentsAndMentors/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/leetcode/practice/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/leetcode/practice/p24Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/GONE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/KGSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/LCASQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/NFACTOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/NFACTOR1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/PRIME1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/RAONE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/spoj/practice/SEQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/unacadamy/test/dp/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/unacadamy/test/dp/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/unacadamy/test/dp/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/practice3/GBus/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1F/SorttheFabrics/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1F/StoryofSeasons/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1F/WaterContainerSystem/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sudokusolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sudokusolver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sudokusolver.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sudokusolver.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sudokusolver.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sudokusolver.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/SRM 785 DIV 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/resource/EllysConjectureDiv2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/resource/EllysPalMulDiv2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/src/EllysConjectureDiv2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/src/EllysPalMulDiv2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/test/EllysConjectureDiv2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 785 DIV 2/test/EllysPalMulDiv2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 786 DIV 2/SRM 786 DIV 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 786 DIV 2/resource/SmallestRegular.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 786 DIV 2/src/SmallestRegular.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 786 DIV 2/test/SmallestRegularTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 787 DIV 2/SRM 787 DIV 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 787 DIV 2/resource/AqaAsadiPlays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 787 DIV 2/src/AqaAsadiPlays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 787 DIV 2/test/AqaAsadiPlaysTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/Vestigum/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/abc$Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/abc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/latinmatrix/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/nestingdepth/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/parentingparenting/Solution$ActityAssignee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/parentingparenting/Solution$Activity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/parentingparenting/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1B/Problem1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1B/Problem2/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1B/Problem2/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1B/Problem3/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1B/Problem3/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem1/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem2/Solution$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem2/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem3/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/round1C/Problem3/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/rount1A/dancing/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/rount1A/dancing/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/rount1A/pascal/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/rount1A/pascal/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Q2020/rount1A/patternmatching/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Y2019/round1A/pylons/Solution$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/Y2019/round1A/pylons/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/algoridhm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/algoridhm/graph/DFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/basic/BinaryExponentiation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r646/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r649/DummScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r649/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r649/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r651/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r651/ProblemB$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r651/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r651/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r652/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r652/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r652/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r654/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r654/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r654/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r654/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r655/Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r655/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r655/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r655/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r655/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r658/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r658/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r658/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r662/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r662/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r662/ProblemC$holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div2/r662/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r653/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r653/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r661/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r661/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r661/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/div3/r661/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemA$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemB$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemC$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course1/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemA$SegTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemB$SegTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemC$SegTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/SegmentTree/course2/step1/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/binarySearch/step1/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/binarySearch/step1/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/binarySearch/step1/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/binarySearch/step1/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/suffixarray/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/edu/suffixarray/Step1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/educational/r93/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/educational/r93/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/educational/r93/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/educational/r93/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/globalround/y2020/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/globalround/y2020/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/globalround/y2020/ProblemC$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/globalround/y2020/ProblemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/codeforce/globalround/y2020/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/IncreasingArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/MissingNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/Permutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/Repetitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/WeirdAlgoridhm$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/cses/IntroductoryProblmes/WeirdAlgoridhm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/diff/A$PropertyNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/diff/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/diff/DiffNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/diff/DiffRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/facebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/qualification/ProblemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/qualification/ProblemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/qualification/ProblemD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/round1/ProblemA1$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/round1/ProblemA1$SegTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/hackercup/Y2020/round1/ProblemA1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1C/Problem1/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1C/Problem2/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1C/Problem3/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1D/AlientPiano/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1D/LockedDoors/Solution$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1D/LockedDoors/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1D/RecordBreaker/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1E/HighBuildings/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1E/LongestArithmetic/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1E/Toys/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/kickstart/Y2020/round1E/Toys/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/leetcode/biweeklycontest/r29/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/leetcode/weeklycontest/r194/MakingFileNamesUnique$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/build/classes/java/main/leetcode/weeklycontest/r194/MakingFileNamesUnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/Q2020/latinmatrix/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemA.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step1/ProblemA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemB.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step1/ProblemB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/ProblemC.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course1/step1/ProblemC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemA.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/edu/SegmentTree/course2/step1/ProblemC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2020/round1C/Problem2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffadon/modify-page/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/ffadon/modify-page/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebrew-cask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokusolver/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokusolver/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$BIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$BIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$FastScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Kosaraju.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Kosaraju.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$SegmentTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice$UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/out/production/classes/codeforce/practice/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1167,7 +112,7 @@
       <command value="ProblemA" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.codeforce.div3.r820.C">
+  <component name="RunManager" selected="Application.kickstart.Y2022.round1F.StoryofSeasons.Solution">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -1189,34 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codeforce.div3.r820.A" />
-      <module name="com.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codeforce.div3.r820.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codeforce.div3.r820.B" />
-      <module name="com.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codeforce.div3.r820.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codeforce.div2.r714.C" />
       <module name="com.main" />
@@ -1231,13 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackercup.Y2022.round1.ProblemA2" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeforce.practice.Practice" />
       <module name="com.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackercup.Y2022.round1.*" />
+          <option name="PATTERN" value="codeforce.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1245,13 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemB1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackercup.Y2022.round1.ProblemB1" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2022.practice3.GBus.Solution" />
       <module name="com.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackercup.Y2022.round1.*" />
+          <option name="PATTERN" value="kickstart.Y2022.practice3.GBus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1265,13 +182,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="codeforce.div3.r820.C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codeforce.div3.r820.C" />
+    <configuration name="kickstart.Y2022.round1F.SorttheFabrics.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2022.round1F.SorttheFabrics.Solution" />
       <module name="com.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codeforce.div3.r820.*" />
+          <option name="PATTERN" value="kickstart.Y2022.round1F.SorttheFabrics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kickstart.Y2022.round1F.StoryofSeasons.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2022.round1F.StoryofSeasons.Solution" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kickstart.Y2022.round1F.StoryofSeasons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kickstart.Y2022.round1F.WaterContainerSystem.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kickstart.Y2022.round1F.WaterContainerSystem.Solution" />
+      <module name="com.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kickstart.Y2022.round1F.WaterContainerSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1297,19 +242,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.C" />
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.B" />
-      <item itemvalue="Application.codeforce.div3.r820.C" />
-      <item itemvalue="Application.ProblemA2" />
-      <item itemvalue="Application.ProblemB1" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.kickstart.Y2022.round1F.SorttheFabrics.Solution" />
+      <item itemvalue="Application.kickstart.Y2022.round1F.StoryofSeasons.Solution" />
+      <item itemvalue="Application.kickstart.Y2022.round1F.WaterContainerSystem.Solution" />
+      <item itemvalue="Application.Practice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.codeforce.div3.r820.C" />
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.ProblemB1" />
-        <item itemvalue="Application.ProblemA2" />
+        <item itemvalue="Application.kickstart.Y2022.round1F.StoryofSeasons.Solution" />
+        <item itemvalue="Application.kickstart.Y2022.round1F.WaterContainerSystem.Solution" />
+        <item itemvalue="Application.kickstart.Y2022.round1F.SorttheFabrics.Solution" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -4097,7 +3042,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/practice/Practice.java</url>
-          <line>277</line>
+          <line>304</line>
           <option name="timeStamp" value="1092" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -4199,6 +3144,11 @@
           <url>file://$PROJECT_DIR$/codejam/src/main/java/codeforce/div3/r820/B.java</url>
           <line>38</line>
           <option name="timeStamp" value="1118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/main/java/kickstart/Y2022/round1F/WaterContainerSystem/Solution.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1121" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
